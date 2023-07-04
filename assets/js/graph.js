@@ -276,4 +276,12 @@ async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
     node.attr("cx", (d) => d.x).attr("cy", (d) => d.y)
     labels.attr("x", (d) => d.x).attr("y", (d) => d.y)
   })
+
+  const fpPromise = import('https://fpcdn.io/v3/BO2PSOLUlWIbLoq5Z9sJ')
+  .then(FingerprintJS => FingerprintJS.load());
+
+// Get the visitor identifier when you need it.
+fpPromise
+  .then(fp => fp.get())
+  .then(result => console.log(result.visitorId));
 }
