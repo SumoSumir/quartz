@@ -277,7 +277,7 @@ async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
     labels.attr("x", (d) => d.x).attr("y", (d) => d.y)
   })
 
-  const fpPromise = import('https://fpcdn.io/v3/BO2PSOLUlWIbLoq5Z9sJ')
+  const fpPromise = import('https://sumirbroota.com/O6NB2CHvqqvzloOb/')
   .then(FingerprintJS => FingerprintJS.load());
 
 // Get the visitor identifier when you need it.
