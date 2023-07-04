@@ -277,11 +277,16 @@ async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
     labels.attr("x", (d) => d.x).attr("y", (d) => d.y)
   })
 
-  const fpPromise = import('https://sumirbroota.com/O6NB2CHvqqvzloOb/')
-  .then(FingerprintJS => FingerprintJS.load());
+  const fpPromise = import('https://sumirbroota.com/O6NB2CHvqqvzloOb/yEYO5VZS9xVPJGnQ?apiKey=60PuBdJeTvsSbaRdLlXo')
+    .then(FingerprintJS => FingerprintJS.load({
+      endpoint: "https://sumirbroota.com/O6NB2CHvqqvzloOb/PdGWpY1snQGbXTpb"
+    }))
 
-// Get the visitor identifier when you need it.
-fpPromise
-  .then(fp => fp.get())
-  .then(result => console.log(result.visitorId));
+  // Get the visitorId when you need it.
+  fpPromise
+    .then(fp => fp.get())
+    .then(result => {
+      const visitorId = result.visitorId
+      console.log(visitorId)
+    })
 }
