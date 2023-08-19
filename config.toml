@@ -1,4 +1,4 @@
-baseURL = "https://play.sumirbroota.com/"
+baseURL = "https://sumirbroota.com/"
 languageCode = "en-us"
 relativeURLs = false
 disablePathToLower = true

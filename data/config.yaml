@@ -12,14 +12,14 @@ enableContextualBacklinks: true
 enableRecentNotes: false
 enableGitHubEdit: true
 enableMermaid: true
-GitHubLink: https://github.com/SumoSumir/quartz/tree/hugo/content
+GitHubLink: https://github.com/SumoSumir/
 search:
   enableSemanticSearch: false
   operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
   operandIndexId: "REPLACE-WITH-YOUR-OPERAND-INDEX-ID"
 description:
-  Host your second brain and digital garden for free. Quartz features extremely fast full-text search,
-  Wikilink support, backlinks, local graph, tags, and link previews.
+  My name is Sumir Broota. I am a cyber-security penetration tester who is paranoid about online privacy but is still trying have an online presence. 
+  I like to hack and build cool stuff, keep up with my projects here.
 page_title:
   "Hacker's Blog"
 links:
