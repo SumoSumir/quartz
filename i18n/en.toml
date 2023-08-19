@@ -20,7 +20,7 @@ other = "showing first 10 results"
 other = "Tag"
 
 [backlinks]
-other = "Backlinks"
+other = "Previous Pages"
 
 [no_backlinks]
 other = "No backlinks found"
@@ -38,7 +38,7 @@ other = "Dark Mode"
 other = "Edit Source"
 
 [interactive_graph]
-other = "Interactive Graph"
+other = "Website Map"
 
 [search]
 other = "Search"
