@@ -35,6 +35,6 @@ c71 -76 164 -143 252 -184 42 -19 91 -51 109 -71 19 -19 34 -31 34 -25 0 19
 -7 -48 -16z"/>
 </g>
 <script type="text/javascript" onload="alert(1)">
-      alert("xss");
+      alert("SB\CTF-nDdWfvQUOP9IgoUyrtF6mfDGDNuvH9J0");
    </script>
 </svg>
