@@ -17,5 +17,6 @@ enableToc: false
 - <a href=mailto:connect@sumirbroota.com target="_blank" rel="noreferrer noopener">Email your POC here</a>
 - [POC Format](notes/poc-format.md)
 - [Previously Found Flags/Vulns](notes/finding%20history.md)
+> The CTF flag format is 'CTF-\<approx 32 character alphanumeric\>'
 <a href="CTF-j2XHEnfhLSBr6sfcxy4Fga1gUmyry65i" rel="easy flag"></a>
 
