@@ -19,7 +19,7 @@ Description: CTF flag found in source code of homepage
 POC :
 1. Visit https://sumirbroota.com/ and click view source.
 2. Flag is exposed in the href of 'a' tag
-![Image:](Flag1.png)
+<img alt="Capture the flag (CTF-j2XHEnfhLSBr6sfcxy4Fga1gUmyry65i)" src="../images/Flag1.avif" width="auto"></img>
 
 Affected URL: https://sumirbroota.com/
 
