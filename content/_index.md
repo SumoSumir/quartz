@@ -8,7 +8,7 @@ enableToc: false
 # [$whoami](https://in.linkedin.com/in/sumir-broota)
 > A person paranoid about cybersecurity and online privacy who is now making an effort to have an online presence.
 
-...If you're here you know my name is Sumir Broota. I am a cyber-security penetration tester and I enjoy building and breaking systems. Stick around to learn about cyber security and see what projects am working on.
+...If you're here you know my name is Sumir Broota. I am a cyber-security penetration tester and I enjoy building and breaking systems. Stick around to learn about [cyber security](../tags/Security) and see what projects I am working on.
 
 ### Want to connect ?
 ### [Linkedin](https://in.linkedin.com/in/sumir-broota) &nbsp; &nbsp; &nbsp; [GitHub](https://github.com/SumoSumir)
