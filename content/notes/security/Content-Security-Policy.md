@@ -33,7 +33,7 @@ This is the policy the browser must refer to in case there is no specific one me
 Here although the scope of the default-src mentions 'self' (allowing only one's own website as the scope), the presence of '*' directs the browser to accept sources from anywhere. The use of such a broad scope can be very dangerous.
 
 ### <code> Lack of font-src, img-src, connect-src, media-src & more: </code><br>
-These additional policies have not been mentioned hence default-src would be used. Making the job of tightening the security of default-src paramount. The above policies are used in case you wish to make an exception for a particular src such as img-src, but don’t want to weaken the security of the default or other configurations. 
+These additional policies have not been mentioned hence default-src would be used. Making the job of tightening the security of default-src paramount. The above policies are used in case you wish to make an exception for a particular src such as img-src, but don’t want to weaken the security of the default/other configurations. 
 
 ### <code> Defining your \<source\>: </code><br>
 ##### 1. Define strict scope even for reputed first party sites
@@ -42,11 +42,11 @@ These additional policies have not been mentioned hence default-src would be use
 ##### 2. Be sure about adding 3rd party websites to your CSP
 - In case there is any vulnerability present in the 3rd party website, it could lead to an attack vector into your site as well.
 
-##### 3. Always think twice when adding * to a CSP regex:
-- The sources used in CSP must be precisely defined. Eg if I’m accepting a legitimate javascript file from a CDN such as cdn.js, my source should not be cdn.js/* . This is problematic as many public cdn’s allow a user to host their own javascript libraries. So an attacker could take advantage of the lax regex and call cdn.js/their-malicious.js. <br>
+##### 3. Always think twice when adding '*' to a CSP regex:
+- The sources used in CSP must be precisely defined. Eg if you're accepting a legitimate javascript file from a CDN such as cdn.js, your source should not be cdn.js/* . This is problematic as many public cdn’s allow users to host their own javascript libraries. So an attacker could take advantage of the lax regex and call cdn.js/their-malicious.js. <br>
 
 ### <code>Avoid 'unsafe-eval'/'unsafe-inline'/'unsafe-hashes' </code><br>
-Using these in any directive is a HUGE risk and must be avoided. Instead more inline scripts into js files or use a [nonce/hash value](https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html#hashes)
+Using these in any directive is a HUGE risk and must be avoided. Instead move inline scripts into separate javascript files or use a [nonce/hash value](https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html#hashes)
 
 ## Recommendation: 
 If Content Security Policy is not already present - implement it immediately. Content Security Policy can be set either in the response header or in the html's meta tag, the prior being given a higher priority. <br>
@@ -55,6 +55,8 @@ Content-Security-Policy: default-src 'self’;
 frame-src 'self'; 
 script-src 'self' https://cdn.jsdelivr.net/npm/@floating-ui/core@1.2.1;
 frame-ancestors ‘none’;
+report-to csp-error;
+report-uri https://sumirbroota.com/csp-violations
 upgrade-insecure-requests;
 ```
 
@@ -65,16 +67,19 @@ This is a suitable setting in case one is not using an iframe in their sites fun
 - X-Frame-Options is rendered obsolete by this directive and is ignored by the user agents.
 
 ### <code>upgrade-insecure-requests: </code>
-the following directive will ensure that all requests will be sent over HTTPS with no fallback to HTTP
+The following directive will ensure that all requests will be sent over HTTPS with no fallback to HTTP
 ### <code> report-to: </code>
-Reporting directives deliver violations of prevented behaviors to specified locations. To ensure backwards compatibility report-uri is also used. See reference - https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html#reporting-directives
+Reporting directives delivers violations of prevented behaviors to specified locations. To ensure backwards compatibility report-uri is also used.
+```yaml {title="Example Report-To header"}
+Report-To: {"group":"csp-error","max_age":180000,"endpoints":[{"url":"https://sumirbroota.com/csp-violations"}],"include_subdomains":true}
+```
 
-
-Points to note:
-1. Be cautious of using * in CSP urls, if a direct url can be used, it would be best.
-2. Avoid using the 'data' scheme as it can be used as a vector for xss.
-3. Do not use 'unsafe-eval'/'unsafe-inline'/'unsafe-hashes' instead use nonce or a hash value.
-5. default-src directive defines the default policy for fetching resources such as JavaScript, Images, CSS, Fonts, AJAX requests, Frames, HTML5 Media hence make sure it is the most secure.
+>[!tldr]
+>1. Be cautious of 3rd party urls & using '*' in even in trusted urls, if a direct url can be used, it would be best.
+>2. Do not use 'unsafe-eval'/'unsafe-inline'/'unsafe-hashes' instead use a [nonce or a hash value](https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html#hashes).
+>3. default-src directive defines the default policy for fetching resources hence make sure it is the most secure.
+>4. Use other source directives if you wish to make an exception for a specific one but no weaken the security of the others/default
+>5. Avoid using the 'data' scheme as it can be used as a vector for XSS.
 
 ## Language/Framework Specific Examples:
 <br>
@@ -89,15 +94,20 @@ add_header Content-Security-Policy: "default-src 'self’;"; always;
 ```
 in your server {} block of the /etc/nginx/sites-enabled/example.conf file. Here the always; option specifies to send the CSP no matter the response code. <br><br>
 
+Use tools such as [SeeSPee](https://github.com/papandreou/seespee) to create a Content-Security-Policy for a website based on the statically detectable relations. *Note you will still have to validate it yourself*
+<br><br>
+
 <section id="tldr"></section>
 
-> [!tldr] TLDR;
+> [!quote] TLDR;
 >
 > Content Security Policy (CSP) provides mechanisms to websites to restrict content that browsers will be allowed to load e.g. inline scripts, remote javascript files. CSP can be set either in the response header or in the html’s meta tag, the prior being given a higher priority. <br>
 > Recommendation: 
->1. Be cautious of using * in CSP urls, if a direct url can be used, it would be best.
+>1. Be cautious of 3rd party urls & using '*' in even in trusted urls, if a direct url can be used, it would be best.
 >2. Do not use 'unsafe-eval'/'unsafe-inline'/'unsafe-hashes' instead use a [nonce or a hash value](https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html#hashes).
 >3. default-src directive defines the default policy for fetching resources hence make sure it is the most secure.
+>4. Use other source directives if you wish to make an exception for a specific one but no weaken the security of the others/default
+>5. Avoid using the 'data' scheme as it can be used as a vector for xss.
 
 
 ## References: 
