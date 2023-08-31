@@ -108,7 +108,7 @@ Use tools such as [SeeSPee](https://github.com/papandreou/seespee) to create a C
 >2. Do not use 'unsafe-eval'/'unsafe-inline' instead use a [nonce or a hash value](https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html#hashes).
 >3. default-src directive defines the default policy for fetching resources hence make sure it is the most secure.
 >4. Use other source directives if you wish to make an exception for a specific one but no weaken the security of the others/default
->5. Avoid using the 'data' scheme as it can be used as a vector for xss.
+>5. Avoid using the 'data' scheme as it can be used as a vector for XSS.
 
 
 ## References: 
