@@ -28,6 +28,8 @@ Content-Security-Policy: default-src 'self’ <source> *;
 frame-src http://3rdparty.site <source>; 
 script-src *.google.com:80 <source> cdn.js unsafe-inline unsafe-eval;
 ```
+[Not sure what frame-src or any other directives are ? - Click here](https://web.dev/csp/#policy-applies-to-a-wide-variety-of-resources)
+
 ### <code> Insecure default-src: </code><br>
 This is the policy the browser must refer to in case there is no specific one mentioned for its use i.e the default case.
 Here although the scope of the default-src mentions 'self' (allowing only one's own website as the scope), the presence of '*' directs the browser to accept sources from anywhere. The use of such a broad scope can be very dangerous.
