@@ -17,3 +17,6 @@ Check out some of the [amazing gardens that community members](https://quartz.jz
 ![Quartz Example Screenshot](./screenshot.png)*Quartz Example Screenshot*
 
 [Join the Discord Community](https://discord.gg/cRFFHYye7t)
+
+
+6. https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/script-src#unsafe_hashes

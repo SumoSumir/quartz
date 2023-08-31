@@ -37,7 +37,7 @@ Here although the scope of the default-src mentions 'self' (allowing only one's 
 ### <code> Lack of font-src, img-src, connect-src, media-src & more: </code><br>
 These additional policies have not been mentioned hence default-src would be used. Making the job of tightening the security of default-src paramount. The above policies are used in case you wish to make an exception for a particular src such as img-src, but don’t want to weaken the security of the default/other configurations. 
 ### <code>Avoid 'unsafe-eval'/'unsafe-inline' </code><br>
-Using these in any directive is a HUGE risk and must be avoided. Just their mere Instead move inline scripts into separate javascript files or use a [nonce/hash value](https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html#hashes)
+Using these in any directive is a HUGE risk and must be avoided. Just their mere presence introduces a vector for the excution of DOM based and inline XSS. Instead move the scripts into separate javascript files or use a [nonce/hash value](https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html#hashes)
 ### <code> Defining your \<source\>: </code><br>
 ##### 1. Define strict scope even for reputed first party sites
 - The use of *.google.com allows all of Google's [1120+ subdomains](https://gist.github.com/abuvanth/b9fcbaf7c77c2954f96c6e556138ffe8) to be used as a script source. You may still think of it as not a threat, but just to refresh your memory: Anyone can build a website on sites.google.com and it would fulfill the above regex requirements.
