@@ -31,12 +31,13 @@ script-src *.google.com:80 <source> cdn.js unsafe-inline unsafe-eval;
 [Not sure what frame-src or any other directives are ? - Click here](https://web.dev/csp/#policy-applies-to-a-wide-variety-of-resources)
 
 ### <code> Insecure default-src: </code><br>
-This is the policy the browser must refer to in case there is no specific one mentioned for its use i.e the default case.
+This is the policy the browser must refer to in case there is no specific one mentioned i.e the default case.
 Here although the scope of the default-src mentions 'self' (allowing only one's own website as the scope), the presence of '*' directs the browser to accept sources from anywhere. The use of such a broad scope can be very dangerous.
 
 ### <code> Lack of font-src, img-src, connect-src, media-src & more: </code><br>
 These additional policies have not been mentioned hence default-src would be used. Making the job of tightening the security of default-src paramount. The above policies are used in case you wish to make an exception for a particular src such as img-src, but don’t want to weaken the security of the default/other configurations. 
-
+### <code>Avoid 'unsafe-eval'/'unsafe-inline' </code><br>
+Using these in any directive is a HUGE risk and must be avoided. Just their mere Instead move inline scripts into separate javascript files or use a [nonce/hash value](https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html#hashes)
 ### <code> Defining your \<source\>: </code><br>
 ##### 1. Define strict scope even for reputed first party sites
 - The use of *.google.com allows all of Google's [1120+ subdomains](https://gist.github.com/abuvanth/b9fcbaf7c77c2954f96c6e556138ffe8) to be used as a script source. You may still think of it as not a threat, but just to refresh your memory: Anyone can build a website on sites.google.com and it would fulfill the above regex requirements.
@@ -47,8 +48,6 @@ These additional policies have not been mentioned hence default-src would be use
 ##### 3. Always think twice when adding '*' to a CSP regex:
 - The sources used in CSP must be precisely defined. Eg if you're accepting a legitimate javascript file from a CDN such as cdn.js, your source should not be cdn.js/* . This is problematic as many public cdn’s allow users to host their own javascript libraries. So an attacker could take advantage of the lax regex and call cdn.js/their-malicious.js. <br>
 
-### <code>Avoid 'unsafe-eval'/'unsafe-inline'/'unsafe-hashes' </code><br>
-Using these in any directive is a HUGE risk and must be avoided. Instead move inline scripts into separate javascript files or use a [nonce/hash value](https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html#hashes)
 
 ## Recommendation: 
 If Content Security Policy is not already present - implement it immediately. Content Security Policy can be set either in the response header or in the html's meta tag, the prior being given a higher priority. <br>
@@ -78,7 +77,7 @@ Report-To: {"group":"csp-error","max_age":180000,"endpoints":[{"url":"https://su
 
 >[!tldr]
 >1. Be cautious of 3rd party urls & using '*' in even in trusted urls, if a direct url can be used, it would be best.
->2. Do not use 'unsafe-eval'/'unsafe-inline'/'unsafe-hashes' instead use a [nonce or a hash value](https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html#hashes).
+>2. Do not use 'unsafe-eval'/'unsafe-inline' instead use a [nonce or a hash value](https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html#hashes).
 >3. default-src directive defines the default policy for fetching resources hence make sure it is the most secure.
 >4. Use other source directives if you wish to make an exception for a specific one but no weaken the security of the others/default
 >5. Avoid using the 'data' scheme as it can be used as a vector for XSS.
@@ -106,7 +105,7 @@ Use tools such as [SeeSPee](https://github.com/papandreou/seespee) to create a C
 > Content Security Policy (CSP) provides mechanisms to websites to restrict content that browsers will be allowed to load e.g. inline scripts, remote javascript files. CSP can be set either in the response header or in the html’s meta tag, the prior being given a higher priority. <br>
 > Recommendation: 
 >1. Be cautious of 3rd party urls & using '*' in even in trusted urls, if a direct url can be used, it would be best.
->2. Do not use 'unsafe-eval'/'unsafe-inline'/'unsafe-hashes' instead use a [nonce or a hash value](https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html#hashes).
+>2. Do not use 'unsafe-eval'/'unsafe-inline' instead use a [nonce or a hash value](https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html#hashes).
 >3. default-src directive defines the default policy for fetching resources hence make sure it is the most secure.
 >4. Use other source directives if you wish to make an exception for a specific one but no weaken the security of the others/default
 >5. Avoid using the 'data' scheme as it can be used as a vector for xss.
@@ -118,4 +117,3 @@ Use tools such as [SeeSPee](https://github.com/papandreou/seespee) to create a C
 3. https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html
 4. https://content-security-policy.com/examples/nginx/
 5. https://webdock.io/en/docs/how-guides/security-guides/how-to-configure-security-headers-in-nginx-and-apache
-6. https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/script-src#unsafe_hashes
