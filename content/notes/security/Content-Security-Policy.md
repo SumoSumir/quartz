@@ -78,8 +78,8 @@ Report-To: {"group":"csp-error","max_age":180000,"endpoints":[{"url":"https://su
 >[!tldr]
 >1. Be cautious of 3rd party urls & using '*' in even in trusted urls, if a direct url can be used, it would be best.
 >2. Do not use 'unsafe-eval'/'unsafe-inline' instead use a [nonce or a hash value](https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html#hashes).
->3. default-src directive defines the default policy for fetching resources hence make sure it is the most secure.
->4. Use other source directives if you wish to make an exception for a specific one but no weaken the security of the others/default
+>3. default-src directive defines the default policy for fetching resources hence make sure it is airtight.
+>4. Use other source directives if you wish to make an exception for a specific one but don't want to weaken the security of the other/default directives
 >5. Avoid using the 'data' scheme as it can be used as a vector for XSS.
 
 ## Language/Framework Specific Examples:
@@ -106,8 +106,8 @@ Use tools such as [SeeSPee](https://github.com/papandreou/seespee) to create a C
 > Recommendation: 
 >1. Be cautious of 3rd party urls & using '*' in even in trusted urls, if a direct url can be used, it would be best.
 >2. Do not use 'unsafe-eval'/'unsafe-inline' instead use a [nonce or a hash value](https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html#hashes).
->3. default-src directive defines the default policy for fetching resources hence make sure it is the most secure.
->4. Use other source directives if you wish to make an exception for a specific one but no weaken the security of the others/default
+>3. default-src directive defines the default policy for fetching resources hence make sure it is airtight.
+>4. Use other source directives if you wish to make an exception for a specific one but don't want to weaken the security of the other/default directives
 >5. Avoid using the 'data' scheme as it can be used as a vector for XSS.
 
 
