@@ -12,7 +12,7 @@ endobj
 <</JS
 (
 try {
-app.alert\("Hacked by SB\nCTF-C23OZz3U0eaDxEwGzmpLOeUGymNuqP3k"\)
+app.alert\("Hacked by SB - CTF-C23OZz3U0eaDxEwGzmpLOeUGymNuqP3k"\)
 } catch \(e\) {
 app.alert\(e.message\);
 }
