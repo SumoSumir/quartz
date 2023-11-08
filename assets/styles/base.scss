@@ -284,7 +284,8 @@ code {
   font-size: 0.85em;
   padding: 0.15em 0.3em;
   border-radius: 5px;
-  background: var(--lightgray);
+  background: var(--outlinegray);
+  //background-color:rgb(50, 54, 61)
 }
 
 @keyframes fadeIn {

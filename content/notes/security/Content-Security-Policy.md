@@ -102,7 +102,7 @@ Use tools such as [SeeSPee](https://github.com/papandreou/seespee) to create a C
 
 > [!quote] TLDR;
 >
-> Content Security Policy (CSP) provides mechanisms to websites to restrict content that browsers will be allowed to load e.g. inline scripts, remote javascript files. CSP can be set either in the response header or in the html’s meta tag, the prior being given a higher priority. <br>
+> Content Security Policy (CSP) provides mechanisms to websites to restrict content that browsers will be allowed to load e.g. inline scripts, remote javascript files. CSP can be set either in the response header or in the html’s meta tag, the prior being given a higher priority. <br><br>
 > Recommendation: 
 >1. Be cautious of 3rd party urls & using '*' in even in trusted urls, if a direct url can be used, it would be best.
 >2. Do not use 'unsafe-eval'/'unsafe-inline' instead use a [nonce or a hash value](https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html#hashes).

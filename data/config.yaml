@@ -12,14 +12,14 @@ enableContextualBacklinks: true
 enableRecentNotes: false
 enableGitHubEdit: true
 enableMermaid: true
-GitHubLink: https://github.com/SumoSumir/
+GitHubLink: https://github.com/SumoSumir/quartz/blob/hugo/content
 search:
   enableSemanticSearch: false
   operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
   operandIndexId: "REPLACE-WITH-YOUR-OPERAND-INDEX-ID"
 description:
   My name is Sumir Broota. I am a cyber-security penetration tester who is paranoid about online privacy but is still trying have an online presence. 
-  I like to hack and build cool stuff, learn about cyber-security and keep up with my projects here.
+  I like to hack and build cool stuff. Learn about cyber-security and keep up with my projects here.
 page_title:
   "Hacker's Blog"
 links:

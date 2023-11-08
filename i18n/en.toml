@@ -35,7 +35,7 @@ other = "Light Mode"
 other = "Dark Mode"
 
 [edit_source]
-other = "Edit Source"
+other = "Request an edit"
 
 [interactive_graph]
 other = "Website Map"
