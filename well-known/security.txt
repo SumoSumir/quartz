@@ -1,0 +1,20 @@
+Contact: mailto:connect@sumirbroota.com
+
+Encryption: https://sumirbroota.com/pgp-key.txt
+
+#TD
+Policy: https://sumirbroota.com/notes/security-policy.html
+
+CTF/Finding Report Format: https://sumirbroota.com/notes/poc-format
+
+Acknowledgments: https://sumirbroota.com/notes/finding-history
+
+Canonical: https://sumirbroota.com/.well-known/security.txt
+
+Preferred-Languages: en
+
+Expires: 2025-12-31T18:37:07z
+
+# If you found this for the CTF flag - Congrats
+# CTF-2YQo1glNZayU4GepD38DNzyrOCge3ai6
+# What is this file ? (RFC 9116) ref - https://www.rfc-editor.org/rfc/rfc9116.html
