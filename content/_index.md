@@ -10,11 +10,15 @@ enableToc: false
 
 ...If you're here you know my name is Sumir Broota. I am a cyber-security penetration tester and I enjoy building and breaking systems. Stick around to learn about [cyber security](/tags/Security) and see what projects I am working on.
 
+UPDATE 09/24:
+I really don't update this often - check out my [linkedin](https://in.linkedin.com/in/sumir-broota) & [breachforce.net](https://breachforce.net) to see some of the things am up to.
+
 ## Blog:
 - ### [Security](/tags/Security)
 
 ### Recently Published:
 - #### [Content Security Policy](notes/security/Content-Security-Policy)
+<script src="../../assets/js/latest.js"> </script>
 
 ### Want to connect ?
 ### [Linkedin](https://in.linkedin.com/in/sumir-broota) &nbsp; &nbsp; &nbsp; [GitHub](https://github.com/SumoSumir)
