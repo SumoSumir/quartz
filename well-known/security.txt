@@ -2,7 +2,7 @@ Contact: mailto:connect@sumirbroota.com
 
 Encryption: https://sumirbroota.com/pgp-key.txt
 
-#TD
+#WIP
 Policy: https://sumirbroota.com/notes/security-policy.html
 
 CTF/Finding Report Format: https://sumirbroota.com/notes/poc-format
