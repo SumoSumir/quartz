@@ -31,4 +31,3 @@ More content pending :p
 - [Previously Found Flags/Vulns](notes/finding%20history.md)
 > The CTF flag format is 'CTF-\<approx 32 character alphanumeric\>'
 <a href="CTF-j2XHEnfhLSBr6sfcxy4Fga1gUmyry65i" rel="easy flag"></a>
-
