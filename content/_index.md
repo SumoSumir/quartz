@@ -8,13 +8,15 @@ enableToc: false
 # [$whoami](https://in.linkedin.com/in/sumir-broota)
 > A person paranoid about cybersecurity and online privacy who is now making an effort to have an online presence.
 
-...If you're here you know my name is Sumir Broota. I am a cyber-security penetration tester and I enjoy building and breaking systems. Stick around to learn about [cyber security](/tags/Security) and see what projects I am working on.
+...If you're here you know my name is Sumir Broota (TOTALLY couldn't have guessed the website name right xD). I am a DevSecOps engineer with an interest in development & cyber-security. I enjoy building systems as much as I like breaking into them. Stick around to learn about the projects that I am working on.
 
 UPDATE 09/24:
 I really don't update this often - check out my [linkedin](https://in.linkedin.com/in/sumir-broota) & [breachforce.net](https://breachforce.net) to see some of the things am up to.
 
 ## Blog:
 - ### [Security](/tags/Security)
+
+More content pending :p
 
 ### Recently Published:
 - #### [Content Security Policy](notes/security/Content-Security-Policy)
