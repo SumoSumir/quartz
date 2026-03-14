@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personalised Resume</title>
+  <link rel="stylesheet" href="resume.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Roboto+Mono&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+  <main id="app">
+    <!-- Form Side -->
+    <section id="form-section">
+      <div class="glass-card">
+        <h1>Interested in hiring me?</h1>
+        <p>Enter your details to download my resume tailored for you.</p>
+        <form id="access-form">
+          <div class="input-group">
+            <i class="fa-solid fa-user"></i>
+            <input type="text" id="name" required placeholder="Full Name">
+          </div>
+          <div class="input-group">
+            <i class="fa-solid fa-envelope"></i>
+            <input type="email" id="email" required placeholder="Email Address">
+          </div>
+          <div class="input-group">
+            <i class="fa-solid fa-phone"></i>
+            <input type="tel" id="phone" required placeholder="Phone Number">
+          </div>
+          <div class="input-group">
+            <i class="fa-solid fa-building"></i>
+            <input type="text" id="company" required placeholder="Company Name">
+          </div>
+          <div class="input-group">
+            <i class="fa-solid fa-id-badge"></i>
+            <input type="text" id="title" required placeholder="Your Title">
+          </div>
+          <div class="input-group">
+            <i class="fa-solid fa-users"></i>
+            <select id="company-size" required>
+              <option value="" disabled selected>Company Size</option>
+              <option value="1-10">1-10 Employees</option>
+              <option value="10-100">10-100 Employees</option>
+              <option value="100-1000+">100-1000+ Employees</option>
+            </select>
+          </div>
+          <div class="input-group">
+            <i class="fa-solid fa-briefcase"></i>
+            <select id="hire-role" required>
+              <option value="" disabled selected>Interested in hiring me for</option>
+              <option value="development">Development/Tech Architect</option>
+              <option value="security">Cyber Security(Purple Team)</option>
+              <option value="devsecops">DevSecOps/Tech Architecture</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="input-group hidden" id="other-role-group">
+            <i class="fa-solid fa-pencil"></i>
+            <input type="text" id="other-role" placeholder="Specify Role">
+          </div>
+          <button type="submit" class="btn-primary">View Personalised Resume <i
+              class="fa-solid fa-arrow-right"></i></button>
+        </form>
+      </div>
+    </section>
+
+
+    <!-- Resume Side -->
+    <section id="resume-section" class="hidden">
+      <div class="resume-controls no-print">
+        <button id="print-btn" class="btn-secondary"><i class="fa-solid fa-print"></i> Export PDF</button>
+      </div>
+
+      <div class="resume-paper" id="resume-paper">
+        <div id="resume-header"></div>
+        <div id="resume-body"></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="resume.js" type="module"></script>
+</body>
+
+</html>

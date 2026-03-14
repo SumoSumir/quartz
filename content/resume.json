@@ -1,0 +1,1935 @@
+{
+    "x_docData": {
+        "x_docModel": {
+            "title": {
+                "desc": {
+                    "x_v": "Sr DevSecOps Engineer &amp; Tech Architect",
+                    "x_key": "title1623660052273"
+                }
+            },
+            "contact": {
+                "givenName": {
+                    "x_v": "Sumir",
+                    "x_sc": true
+                },
+                "familyName": {
+                    "x_v": "Broota",
+                    "x_sc": true
+                },
+                "email": {
+                    "x_v": "connect@sumirbroota.com",
+                    "x_sc": true
+                },
+                "phone": {
+                    "x_v": "U2FsdGVkX1/aON8sO2dgH0nNE6VjyYNdGoxPSW+NrpY=",
+                    "x_sc": true
+                },
+                "country": {
+                    "x_v": "India",
+                    "x_sc": true
+                },
+                "city": {
+                    "x_v": "Mumbai",
+                    "x_sc": true
+                },
+                "website": {
+                    "x_v": "https://sumirbroota.com",
+                    "x_sc": true
+                },
+                "linkedin": {
+                    "x_v": "https://www.linkedin.com/in/sumir-broota/",
+                    "x_sc": true
+                },
+                "github": {
+                    "x_v": "https://github.com/SumoSumir",
+                    "x_sc": true
+                },
+                "stackoverflow": {
+                    "x_v": "Stack Overflow",
+                    "x_sc": false
+                },
+                "medium": {
+                    "x_v": "Medium",
+                    "x_sc": false
+                }
+            },
+            "edu": {
+                "x_m": {
+                    "x_oneColInc": 1,
+                    "x_noListElPerRow": 2
+                },
+                "x_vs": [
+                    {
+                        "x_key": "edu1623660052278",
+                        "role": {
+                            "x_v": "BTech Computer Engineering"
+                        },
+                        "place": {
+                            "x_v": "Vishwakarma University(VU), Pune",
+                            "x_link": ""
+                        },
+                        "period": {
+                            "x_v": "06/2018 - Present",
+                            "x_ps": true
+                        },
+                        "startMonth": {
+                            "x_v": "06"
+                        },
+                        "startYear": {
+                            "x_v": "2018"
+                        },
+                        "endMonth": {
+                            "x_v": ""
+                        },
+                        "endYear": {
+                            "x_v": ""
+                        },
+                        "loc": {
+                            "x_v": "8.55 CGPA"
+                        },
+                        "lbl_list": {
+                            "x_v": "Courses"
+                        },
+                        "list": [
+                            {
+                                "x_v": "IBM Cyber Security Certification",
+                                "x_link": ""
+                            },
+                            {
+                                "x_v": "AI: A+, AI Lab:- Outstanding",
+                                "x_link": ""
+                            },
+                            {
+                                "x_v": "IT Network Sec Lab:- Outstanding",
+                                "x_link": ""
+                            },
+                            {
+                                "x_v": "IT Application Sec Lab:- Outstanding",
+                                "x_link": ""
+                            }
+                        ]
+                    }
+                ],
+                "lbl": {
+                    "x_v": "Education"
+                }
+            },
+            "skills": {
+                "x_m": {
+                    "x_rs": "",
+                    "x_hl": true,
+                    "x_intensify": false
+                },
+                "x_vs": [
+                    {
+                        "x_key": "skills1623660052290",
+                        "abl": {
+                            "x_v": "C",
+                            "x_rl": 80
+                        }
+                    },
+                    {
+                        "x_key": "skills1623660591133",
+                        "abl": {
+                            "x_v": "C++",
+                            "x_rl": 80
+                        }
+                    },
+                    {
+                        "x_key": "skills1623660594864",
+                        "abl": {
+                            "x_v": "Python",
+                            "x_rl": 80
+                        }
+                    },
+                    {
+                        "x_key": "skills1623660599397",
+                        "abl": {
+                            "x_v": "HTML",
+                            "x_rl": 80
+                        }
+                    },
+                    {
+                        "x_key": "skills1623660613381",
+                        "abl": {
+                            "x_v": "PHP",
+                            "x_rl": 80
+                        }
+                    },
+                    {
+                        "x_key": "skills1623660618743",
+                        "abl": {
+                            "x_v": "Javascript",
+                            "x_rl": 80
+                        }
+                    },
+                    {
+                        "x_key": "skills1623665312440",
+                        "abl": {
+                            "x_v": "Java",
+                            "x_rl": 80
+                        }
+                    },
+                    {
+                        "x_key": "skills1623660637308",
+                        "abl": {
+                            "x_v": "Cyber Security",
+                            "x_rl": 80
+                        }
+                    },
+                    {
+                        "x_key": "skills1623661685283",
+                        "abl": {
+                            "x_v": "Project Manager",
+                            "x_rl": 80
+                        }
+                    },
+                    {
+                        "x_key": "skills1623661690176",
+                        "abl": {
+                            "x_v": "AGILE",
+                            "x_rl": 80
+                        }
+                    },
+                    {
+                        "x_key": "skills1623661695856",
+                        "abl": {
+                            "x_v": "DevOps",
+                            "x_rl": 80
+                        }
+                    },
+                    {
+                        "x_key": "skills1623661704739",
+                        "abl": {
+                            "x_v": "DevSecOps",
+                            "x_rl": 80
+                        }
+                    },
+                    {
+                        "x_key": "skills1623661724826",
+                        "abl": {
+                            "x_v": "Waterfall",
+                            "x_rl": 80
+                        }
+                    },
+                    {
+                        "x_key": "skills1623662631850",
+                        "abl": {
+                            "x_v": "ROS",
+                            "x_rl": 80
+                        }
+                    },
+                    {
+                        "x_key": "skills1623662634002",
+                        "abl": {
+                            "x_v": "TensorFlow",
+                            "x_rl": 80
+                        }
+                    },
+                    {
+                        "x_key": "skills1623662643977",
+                        "abl": {
+                            "x_v": "Keras",
+                            "x_rl": 80
+                        }
+                    },
+                    {
+                        "x_key": "skills1623662659172",
+                        "abl": {
+                            "x_v": "Nmap",
+                            "x_rl": 80
+                        }
+                    },
+                    {
+                        "x_key": "skills1623662665041",
+                        "abl": {
+                            "x_v": "SqlMap",
+                            "x_rl": 80
+                        }
+                    },
+                    {
+                        "x_key": "skills1623662670453",
+                        "abl": {
+                            "x_v": "OWASP Zap",
+                            "x_rl": 80
+                        }
+                    },
+                    {
+                        "x_key": "skills-1639331353164-2",
+                        "abl": {
+                            "x_v": "OpenCV",
+                            "x_rl": 80
+                        }
+                    },
+                    {
+                        "x_key": "skills1623662685652",
+                        "abl": {
+                            "x_v": "BurpSuite",
+                            "x_rl": 80
+                        }
+                    },
+                    {
+                        "x_key": "skills1623662689820",
+                        "abl": {
+                            "x_v": "WireShark",
+                            "x_rl": 80
+                        }
+                    },
+                    {
+                        "x_key": "skills1623662722060",
+                        "abl": {
+                            "x_v": "Scapy",
+                            "x_rl": 80
+                        }
+                    },
+                    {
+                        "x_key": "skills1623662740724",
+                        "abl": {
+                            "x_v": "RIPS",
+                            "x_rl": 80
+                        }
+                    }
+                ],
+                "lbl": {
+                    "x_v": "Skills"
+                }
+            },
+            "interests": {
+                "x_m": {
+                    "x_hl": true
+                },
+                "x_vs": [
+                    {
+                        "x_key": "interests1623660052293",
+                        "abl": {
+                            "x_v": "Cyber Security",
+                            "x_rl": "star"
+                        }
+                    },
+                    {
+                        "x_key": "interests1623661346392",
+                        "abl": {
+                            "x_v": "Artificial Intelligence",
+                            "x_rl": "star"
+                        }
+                    },
+                    {
+                        "x_key": "interests1623661348159",
+                        "abl": {
+                            "x_v": "Robotics",
+                            "x_rl": "star"
+                        }
+                    },
+                    {
+                        "x_key": "interests1623661359521",
+                        "abl": {
+                            "x_v": "DIY Projects",
+                            "x_rl": "star"
+                        }
+                    },
+                    {
+                        "x_key": "interests1623661448914",
+                        "abl": {
+                            "x_v": "Football",
+                            "x_rl": "star"
+                        }
+                    },
+                    {
+                        "x_key": "interests1623661467479",
+                        "abl": {
+                            "x_v": "Coding",
+                            "x_rl": "star"
+                        }
+                    },
+                    {
+                        "x_key": "interests1623661504386",
+                        "abl": {
+                            "x_v": "Hosting Events",
+                            "x_rl": "star"
+                        }
+                    },
+                    {
+                        "x_key": "interests-1639338417829-2",
+                        "abl": {
+                            "x_v": "Gaming",
+                            "x_rl": "star"
+                        }
+                    }
+                ],
+                "lbl": {
+                    "x_v": "Interests"
+                }
+            },
+            "work": {
+                "x_m": {
+                    "x_oneColInc": 1
+                },
+                "x_vs": [
+                    {
+                        "x_key": "work-1768759392542-2",
+                        "role": {
+                            "x_v": "IDfy"
+                        },
+                        "place": {
+                            "x_v": "Sr DevOps Engineer",
+                            "x_link": ""
+                        },
+                        "period": {
+                            "x_v": "03/2025 - 03/2026"
+                        },
+                        "startMonth": {
+                            "x_v": "03"
+                        },
+                        "startYear": {
+                            "x_v": "2025"
+                        },
+                        "endMonth": {
+                            "x_v": "03"
+                        },
+                        "endYear": {
+                            "x_v": "2026"
+                        },
+                        "loc": {
+                            "x_v": "Mumbai"
+                        },
+                        "desc": {
+                            "x_v": ""
+                        },
+                        "lbl_list": {
+                            "x_v": "Achievements/Tasks"
+                        },
+                        "list": [
+                            {
+                                "x_v": "Led the migration of subsidiary company from GCP to AWS. Setting up their entire infra &amp; inter-cloud connectivity requirements",
+                                "x_link": ""
+                            },
+                            {
+                                "x_v": "Setup &amp; maintained EFFK Logging pipeline across new environments",
+                                "x_link": ""
+                            },
+                            {
+                                "x_v": "Setup &amp; maintained gateway exposure of apps across multiple environments",
+                                "x_link": ""
+                            },
+                            {
+                                "x_v": "Created &amp; maintained terraform/terragrunt modules for IaC usage across environments",
+                                "x_link": ""
+                            },
+                            {
+                                "x_v": "Created packer images for golden image setup of vm disk images",
+                                "x_link": ""
+                            },
+                            {
+                                "x_v": "Setup CI/CD pipelines for image creation/infra deployment/linting/security checks &amp; more",
+                                "x_link": ""
+                            },
+                            {
+                                "x_v": "Created a custom helm chart for product deployment across multiple client single tenants",
+                                "x_link": ""
+                            },
+                            {
+                                "x_v": "Maintained tooling across the org such as k3s/ArgoCD/Gitlab/FluxCD &amp; more",
+                                "x_link": ""
+                            },
+                            {
+                                "x_v": "Maintained alerting infrastructure using victoria metrics",
+                                "x_link": ""
+                            }
+                        ],
+                        "contact_person": {
+                            "x_v": ""
+                        },
+                        "contact_info": {
+                            "x_v": ""
+                        }
+                    },
+                    {
+                        "x_key": "work-1735589323656-2",
+                        "role": {
+                            "x_v": "IDfy"
+                        },
+                        "place": {
+                            "x_v": "Research Developer",
+                            "x_link": ""
+                        },
+                        "period": {
+                            "x_v": "09/2023 - 03/2025",
+                            "x_ps": false
+                        },
+                        "startMonth": {
+                            "x_v": "09"
+                        },
+                        "startYear": {
+                            "x_v": "2023"
+                        },
+                        "endMonth": {
+                            "x_v": "03"
+                        },
+                        "endYear": {
+                            "x_v": "2025"
+                        },
+                        "loc": {
+                            "x_v": "Mumbai"
+                        },
+                        "desc": {
+                            "x_v": ""
+                        },
+                        "lbl_list": {
+                            "x_v": "Achievements/Tasks"
+                        },
+                        "list": [
+                            {
+                                "x_v": "Independently launched a comprehensive internal developer toolkit, working closely under the guidance of the Chief Architect.",
+                                "x_link": ""
+                            },
+                            {
+                                "x_v": "Independently built an Access Manager using Kubernetes RBAC &amp; RedisGraph, with guidance from the Chief Architect.",
+                                "x_link": ""
+                            },
+                            {
+                                "x_v": "Worked on defining a secure cloud policy across the organisation using OPA (Rego).",
+                                "x_link": ""
+                            },
+                            {
+                                "x_v": "Built a Bank Statement Analysis application to help banks &amp; NBFC's underwrite loans in a small fast paced team directly under the CEO.",
+                                "x_link": ""
+                            }
+                        ],
+                        "contact_person": {
+                            "x_v": ""
+                        },
+                        "contact_info": {
+                            "x_v": ""
+                        }
+                    },
+                    {
+                        "x_key": "work-1735589955204-2",
+                        "role": {
+                            "x_v": "IDfy"
+                        },
+                        "place": {
+                            "x_v": "Infosec Engineer",
+                            "x_link": ""
+                        },
+                        "period": {
+                            "x_v": "09/2022 - 09/2023"
+                        },
+                        "startMonth": {
+                            "x_v": "09"
+                        },
+                        "startYear": {
+                            "x_v": "2022"
+                        },
+                        "endMonth": {
+                            "x_v": "09"
+                        },
+                        "endYear": {
+                            "x_v": "2023"
+                        },
+                        "loc": {
+                            "x_v": "Mumbai"
+                        },
+                        "desc": {
+                            "x_v": ""
+                        },
+                        "lbl_list": {
+                            "x_v": "Achievements/Tasks"
+                        },
+                        "list": [
+                            {
+                                "x_v": "Lead the team with highest no. of security issues found (including criticals).",
+                                "x_link": ""
+                            },
+                            {
+                                "x_v": "Lead the team with the highest issue closure rate.",
+                                "x_link": ""
+                            },
+                            {
+                                "x_v": "Lead the team in process automation &amp; WAF incident response.",
+                                "x_link": ""
+                            }
+                        ],
+                        "contact_person": {
+                            "x_v": ""
+                        },
+                        "contact_info": {
+                            "x_v": ""
+                        }
+                    },
+                    {
+                        "x_key": "work-1768675418572-2",
+                        "role": {
+                            "x_v": "Intern - Inmoov Project"
+                        },
+                        "place": {
+                            "x_v": "HyperSpawn Pvt Ltd",
+                            "x_link": ""
+                        },
+                        "period": {
+                            "x_v": "06/2021 - 08/2021"
+                        },
+                        "startMonth": {
+                            "x_v": "06"
+                        },
+                        "startYear": {
+                            "x_v": "2021"
+                        },
+                        "endMonth": {
+                            "x_v": "08"
+                        },
+                        "endYear": {
+                            "x_v": "2021"
+                        },
+                        "loc": {
+                            "x_v": "Pune"
+                        },
+                        "desc": {
+                            "x_v": "Robotics company focused on humanoid robots"
+                        },
+                        "lbl_list": {
+                            "x_v": "Achievements/Tasks"
+                        },
+                        "list": [
+                            {
+                                "x_v": "Led all Electronics and 3D printing tasks to build an Inmoov Robot",
+                                "x_link": ""
+                            },
+                            {
+                                "x_v": "Used MyRobotLab, an open source Java framework to develop tasks for the robot",
+                                "x_link": ""
+                            }
+                        ],
+                        "contact_person": {
+                            "x_v": ""
+                        },
+                        "contact_info": {
+                            "x_v": ""
+                        }
+                    },
+                    {
+                        "x_key": "work-1768675419540-2",
+                        "role": {
+                            "x_v": "Energy Auditor"
+                        },
+                        "place": {
+                            "x_v": "VEA Internship",
+                            "x_link": ""
+                        },
+                        "period": {
+                            "x_v": "06/2019 - 06/2020",
+                            "x_ps": false
+                        },
+                        "startMonth": {
+                            "x_v": "06"
+                        },
+                        "startYear": {
+                            "x_v": "2019"
+                        },
+                        "endMonth": {
+                            "x_v": "06"
+                        },
+                        "endYear": {
+                            "x_v": "2020"
+                        },
+                        "loc": {
+                            "x_v": "Pune"
+                        },
+                        "desc": {
+                            "x_v": "Virtual Energy Audit(VEA) club, VU"
+                        },
+                        "lbl_list": {
+                            "x_v": "Achievements/Tasks"
+                        },
+                        "list": [
+                            {
+                                "x_v": "Performed an Energy Audit of Car seat manufacturing plant  and provided recommendations to lower their energy bill and alleviate high moisture conditions in their facility.",
+                                "x_link": ""
+                            }
+                        ],
+                        "contact_person": {
+                            "x_v": ""
+                        },
+                        "contact_info": {
+                            "x_v": ""
+                        }
+                    },
+                    {
+                        "x_key": "work-1768675421689-2",
+                        "role": {
+                            "x_v": "Intern"
+                        },
+                        "place": {
+                            "x_v": "Elite Technology Group",
+                            "x_link": ""
+                        },
+                        "period": {
+                            "x_v": "06/2019"
+                        },
+                        "startMonth": {
+                            "x_v": ""
+                        },
+                        "startYear": {
+                            "x_v": ""
+                        },
+                        "endMonth": {
+                            "x_v": "06"
+                        },
+                        "endYear": {
+                            "x_v": "2019"
+                        },
+                        "loc": {
+                            "x_v": "Pune"
+                        },
+                        "desc": {
+                            "x_v": ""
+                        },
+                        "lbl_list": {
+                            "x_v": "Achievements/Tasks"
+                        },
+                        "list": [
+                            {
+                                "x_v": "Authored a paper on the Gear manufacturing/machining process and their use in Transmission systems.",
+                                "x_link": ""
+                            }
+                        ],
+                        "contact_person": {
+                            "x_v": ""
+                        },
+                        "contact_info": {
+                            "x_v": ""
+                        }
+                    },
+                    {
+                        "x_key": "work-1768675424721-2",
+                        "role": {
+                            "x_v": "Kasetsart University (KU), Bangkok, Thailand (Pune)"
+                        },
+                        "place": {
+                            "x_v": "Researcher (12/2020 - 06/2021)",
+                            "x_link": ""
+                        },
+                        "period": {
+                            "x_v": "",
+                            "x_ps": false
+                        },
+                        "startMonth": {
+                            "x_v": ""
+                        },
+                        "startYear": {
+                            "x_v": ""
+                        },
+                        "endMonth": {
+                            "x_v": ""
+                        },
+                        "endYear": {
+                            "x_v": ""
+                        },
+                        "loc": {
+                            "x_v": ""
+                        },
+                        "desc": {
+                            "x_v": "Kasetsart University in Thailand, offered remote internships in collaboration with Vishwakarama University."
+                        },
+                        "lbl_list": {
+                            "x_v": "Achievements/Tasks"
+                        },
+                        "list": [
+                            {
+                                "x_v": "Devised a ML model to classify the edible variants of durian fruit to distinguish it's ripe state from the raw state to avoid health complications",
+                                "x_link": ""
+                            },
+                            {
+                                "x_v": "Used MFCC's from audio of knocking on the fruit to detect the stage of ripeness",
+                                "x_link": ""
+                            },
+                            {
+                                "x_v": "Produced the ANN's and RNN's using TensorFlow. Achieved: 100% accuracy for raw and 96% for ripe types",
+                                "x_link": ""
+                            }
+                        ],
+                        "contact_person": {
+                            "x_v": ""
+                        },
+                        "contact_info": {
+                            "x_v": ""
+                        }
+                    },
+                    {
+                        "x_key": "work-1768675427122-2",
+                        "role": {
+                            "x_v": "Renishaw U.K. (Pune)"
+                        },
+                        "place": {
+                            "x_v": "Indian Software Team (06/2021 - 01/2022)",
+                            "x_link": ""
+                        },
+                        "period": {
+                            "x_v": "",
+                            "x_ps": false
+                        },
+                        "startMonth": {
+                            "x_v": ""
+                        },
+                        "startYear": {
+                            "x_v": ""
+                        },
+                        "endMonth": {
+                            "x_v": ""
+                        },
+                        "endYear": {
+                            "x_v": ""
+                        },
+                        "loc": {
+                            "x_v": ""
+                        },
+                        "desc": {
+                            "x_v": "Remote Intern at the U.K. based tool manufacturing company specializing in spectroscopy, healthcare etc."
+                        },
+                        "lbl_list": {
+                            "x_v": "Achievements/Tasks"
+                        },
+                        "list": [
+                            {
+                                "x_v": "Sole project lead and developer",
+                                "x_link": ""
+                            },
+                            {
+                                "x_v": "Developed a TensorFlow model to extract hyper parameters of an ellipse",
+                                "x_link": ""
+                            },
+                            {
+                                "x_v": "Created several Keras models for image processing",
+                                "x_link": ""
+                            }
+                        ],
+                        "contact_person": {
+                            "x_v": ""
+                        },
+                        "contact_info": {
+                            "x_v": ""
+                        }
+                    }
+                ],
+                "lbl": {
+                    "x_v": "Work Experience"
+                }
+            },
+            "ach": {
+                "x_m": {
+                    "x_oneColInc": 2
+                },
+                "x_vs": [
+                    {
+                        "x_key": "ach-1735591864428-2",
+                        "name": {
+                            "x_v": "BreachForce Community Moderator",
+                            "x_link": ""
+                        },
+                        "period": {
+                            "x_v": "02/2024 - Present",
+                            "x_ps": true
+                        },
+                        "startMonth": {
+                            "x_v": "02"
+                        },
+                        "startYear": {
+                            "x_v": "2024"
+                        },
+                        "endMonth": {
+                            "x_v": ""
+                        },
+                        "endYear": {
+                            "x_v": ""
+                        },
+                        "desc": {
+                            "x_v": "Leading a cyber security community to help upskill people for free. Currently the community is 1200+ strong &amp; is the largest in Mumbai"
+                        }
+                    },
+                    {
+                        "x_key": "ach1623663271423",
+                        "name": {
+                            "x_v": "Top 50 in IIT-Bombay E-Yantra Competition for Sahayak Bot - Robot Operating System (ROS)",
+                            "x_link": ""
+                        },
+                        "period": {
+                            "x_v": "2021"
+                        },
+                        "startMonth": {
+                            "x_v": ""
+                        },
+                        "startYear": {
+                            "x_v": ""
+                        },
+                        "endMonth": {
+                            "x_v": ""
+                        },
+                        "endYear": {
+                            "x_v": "2021"
+                        },
+                        "desc": {
+                            "x_v": "Completed challenges using ROSpy and ROScpp against 500 teams from across the country, with full completion and second stage certification. Mastering ROS through practical experience."
+                        }
+                    },
+                    {
+                        "x_key": "ach-1657722253355-2",
+                        "name": {
+                            "x_v": "Discovered Vulnerabilities in Local and Foreign Gov Websites",
+                            "x_link": ""
+                        },
+                        "period": {
+                            "x_v": "2019"
+                        },
+                        "startMonth": {
+                            "x_v": ""
+                        },
+                        "startYear": {
+                            "x_v": ""
+                        },
+                        "endMonth": {
+                            "x_v": ""
+                        },
+                        "endYear": {
+                            "x_v": "2019"
+                        },
+                        "desc": {
+                            "x_v": "XSS vulnerability for foreign government and CWE-319 for local government"
+                        }
+                    },
+                    {
+                        "x_key": "ach-1768674943955-2",
+                        "name": {
+                            "x_v": "Top 10 in KubeCon India CTF 2025",
+                            "x_link": ""
+                        },
+                        "period": {
+                            "x_v": "07/2025"
+                        },
+                        "startMonth": {
+                            "x_v": "07"
+                        },
+                        "startYear": {
+                            "x_v": "2025"
+                        },
+                        "endMonth": {
+                            "x_v": ""
+                        },
+                        "endYear": {
+                            "x_v": ""
+                        },
+                        "desc": {
+                            "x_v": "A Kubernetes CTF hosted by KubeCon in association with control-plane.io"
+                        }
+                    },
+                    {
+                        "x_key": "ach-1768675161468-2",
+                        "name": {
+                            "x_v": "3rd Place in O'reilly Architectural Katas Q4 2025",
+                            "x_link": ""
+                        },
+                        "period": {
+                            "x_v": ""
+                        },
+                        "startMonth": {
+                            "x_v": ""
+                        },
+                        "startYear": {
+                            "x_v": ""
+                        },
+                        "endMonth": {
+                            "x_v": ""
+                        },
+                        "endYear": {
+                            "x_v": ""
+                        },
+                        "desc": {
+                            "x_v": "A tech architecture competition where one must design a system for various problem statements. Judged by experts in the field, we placed 3rd among dozens of top tier teams around the world"
+                        }
+                    }
+                ],
+                "lbl": {
+                    "x_v": "Achievements"
+                }
+            },
+            "cert": {
+                "x_m": {
+                    "x_oneColInc": 2
+                },
+                "x_vs": [
+                    {
+                        "x_key": "cert1623665461527",
+                        "name": {
+                            "x_v": "Atom Robotics Club Workshop Certificates",
+                            "x_link": ""
+                        },
+                        "period": {
+                            "x_v": ""
+                        },
+                        "startMonth": {
+                            "x_v": ""
+                        },
+                        "startYear": {
+                            "x_v": ""
+                        },
+                        "endMonth": {
+                            "x_v": ""
+                        },
+                        "endYear": {
+                            "x_v": ""
+                        },
+                        "desc": {
+                            "x_v": "Level 1, Level 2, Sir C.V. Raman, Science Day"
+                        }
+                    },
+                    {
+                        "x_key": "cert1623665560668",
+                        "name": {
+                            "x_v": "Host of Several Events for ARC (Robotics Club) and College Festivals",
+                            "x_link": ""
+                        },
+                        "period": {
+                            "x_v": ""
+                        },
+                        "startMonth": {
+                            "x_v": ""
+                        },
+                        "startYear": {
+                            "x_v": ""
+                        },
+                        "endMonth": {
+                            "x_v": ""
+                        },
+                        "endYear": {
+                            "x_v": ""
+                        },
+                        "desc": {
+                            "x_v": "Robotics competitions, National Science Day, End of college year festivals."
+                        }
+                    },
+                    {
+                        "x_key": "cert-1638277871104-2",
+                        "name": {
+                            "x_v": "AI for Everyone - DeepLearning.AI (Coursera)",
+                            "x_link": ""
+                        },
+                        "period": {
+                            "x_v": "07/2021"
+                        },
+                        "startMonth": {
+                            "x_v": "07"
+                        },
+                        "startYear": {
+                            "x_v": "2021"
+                        },
+                        "endMonth": {
+                            "x_v": ""
+                        },
+                        "endYear": {
+                            "x_v": ""
+                        },
+                        "desc": {
+                            "x_v": ""
+                        }
+                    },
+                    {
+                        "x_key": "cert-1638278134870-2",
+                        "name": {
+                            "x_v": "Hybrid and Electric Power Trains (VU Digital)",
+                            "x_link": ""
+                        },
+                        "period": {
+                            "x_v": "06/2021"
+                        },
+                        "startMonth": {
+                            "x_v": "06"
+                        },
+                        "startYear": {
+                            "x_v": "2021"
+                        },
+                        "endMonth": {
+                            "x_v": ""
+                        },
+                        "endYear": {
+                            "x_v": ""
+                        },
+                        "desc": {
+                            "x_v": "Taught by NTU Singapore"
+                        }
+                    },
+                    {
+                        "x_key": "cert-1638278498322-2",
+                        "name": {
+                            "x_v": "Introduction to Design Thinking",
+                            "x_link": ""
+                        },
+                        "period": {
+                            "x_v": "06/2021"
+                        },
+                        "startMonth": {
+                            "x_v": "06"
+                        },
+                        "startYear": {
+                            "x_v": "2021"
+                        },
+                        "endMonth": {
+                            "x_v": ""
+                        },
+                        "endYear": {
+                            "x_v": ""
+                        },
+                        "desc": {
+                            "x_v": "Taught by Binghampton University"
+                        }
+                    },
+                    {
+                        "x_key": "cert-1768674172039-2",
+                        "name": {
+                            "x_v": "Certified Kubernetes Security Specialist (CKS)",
+                            "x_link": ""
+                        },
+                        "period": {
+                            "x_v": "10/2025"
+                        },
+                        "startMonth": {
+                            "x_v": "10"
+                        },
+                        "startYear": {
+                            "x_v": "2025"
+                        },
+                        "endMonth": {
+                            "x_v": ""
+                        },
+                        "endYear": {
+                            "x_v": ""
+                        },
+                        "desc": {
+                            "x_v": "From the Linux Foundation"
+                        }
+                    },
+                    {
+                        "x_key": "cert-1768674270386-2",
+                        "name": {
+                            "x_v": "Certified Kubernetes Administrator (CKA)",
+                            "x_link": ""
+                        },
+                        "period": {
+                            "x_v": "09/2025"
+                        },
+                        "startMonth": {
+                            "x_v": "09"
+                        },
+                        "startYear": {
+                            "x_v": "2025"
+                        },
+                        "endMonth": {
+                            "x_v": ""
+                        },
+                        "endYear": {
+                            "x_v": ""
+                        },
+                        "desc": {
+                            "x_v": "From the Linux Foundation"
+                        }
+                    },
+                    {
+                        "x_key": "cert-1768674520103-2",
+                        "name": {
+                            "x_v": "Certified Kubernetes Application Developer (CKAD)",
+                            "x_link": ""
+                        },
+                        "period": {
+                            "x_v": "09/2025"
+                        },
+                        "startMonth": {
+                            "x_v": "09"
+                        },
+                        "startYear": {
+                            "x_v": "2025"
+                        },
+                        "endMonth": {
+                            "x_v": ""
+                        },
+                        "endYear": {
+                            "x_v": ""
+                        },
+                        "desc": {
+                            "x_v": "From the Linux Foundation"
+                        }
+                    },
+                    {
+                        "x_key": "cert-1768674562919-2",
+                        "name": {
+                            "x_v": "Kubernetes and Cloud Native Security Associate (KCSA)",
+                            "x_link": ""
+                        },
+                        "period": {
+                            "x_v": "08/2025"
+                        },
+                        "startMonth": {
+                            "x_v": "08"
+                        },
+                        "startYear": {
+                            "x_v": "2025"
+                        },
+                        "endMonth": {
+                            "x_v": ""
+                        },
+                        "endYear": {
+                            "x_v": ""
+                        },
+                        "desc": {
+                            "x_v": "From the Linux Foundation"
+                        }
+                    },
+                    {
+                        "x_key": "cert-1768674610124-2",
+                        "name": {
+                            "x_v": "Kubernetes and Cloud Native Associate (KCNA)",
+                            "x_link": ""
+                        },
+                        "period": {
+                            "x_v": "08/2025"
+                        },
+                        "startMonth": {
+                            "x_v": "08"
+                        },
+                        "startYear": {
+                            "x_v": "2025"
+                        },
+                        "endMonth": {
+                            "x_v": ""
+                        },
+                        "endYear": {
+                            "x_v": ""
+                        },
+                        "desc": {
+                            "x_v": "From the Linux Foundation"
+                        }
+                    },
+                    {
+                        "x_key": "cert-1768674656291-2",
+                        "name": {
+                            "x_v": "Kubestronaut (CKS, CKA, CKAD, KCSA, KCNA)",
+                            "x_link": ""
+                        },
+                        "period": {
+                            "x_v": "10/2025"
+                        },
+                        "startMonth": {
+                            "x_v": "10"
+                        },
+                        "startYear": {
+                            "x_v": "2025"
+                        },
+                        "endMonth": {
+                            "x_v": ""
+                        },
+                        "endYear": {
+                            "x_v": ""
+                        },
+                        "desc": {
+                            "x_v": "From the Linux Foundation"
+                        }
+                    },
+                    {
+                        "x_key": "cert-1768674759761-2",
+                        "name": {
+                            "x_v": "GCP Professional DevOps Engineer",
+                            "x_link": ""
+                        },
+                        "period": {
+                            "x_v": "06/2025"
+                        },
+                        "startMonth": {
+                            "x_v": "06"
+                        },
+                        "startYear": {
+                            "x_v": "2025"
+                        },
+                        "endMonth": {
+                            "x_v": ""
+                        },
+                        "endYear": {
+                            "x_v": ""
+                        },
+                        "desc": {
+                            "x_v": "From Google Cloud"
+                        }
+                    },
+                    {
+                        "x_key": "cert-1768674799503-2",
+                        "name": {
+                            "x_v": "GCP Professional Cloud Architect",
+                            "x_link": ""
+                        },
+                        "period": {
+                            "x_v": "05/2025"
+                        },
+                        "startMonth": {
+                            "x_v": "05"
+                        },
+                        "startYear": {
+                            "x_v": "2025"
+                        },
+                        "endMonth": {
+                            "x_v": ""
+                        },
+                        "endYear": {
+                            "x_v": ""
+                        },
+                        "desc": {
+                            "x_v": "From Google Cloud"
+                        }
+                    },
+                    {
+                        "x_key": "cert-1768694799598-2",
+                        "name": {
+                            "x_v": "GCP Professional Cloud Security Engineer",
+                            "x_link": ""
+                        },
+                        "period": {
+                            "x_v": "01/2026"
+                        },
+                        "startMonth": {
+                            "x_v": "01"
+                        },
+                        "startYear": {
+                            "x_v": "2026"
+                        },
+                        "endMonth": {
+                            "x_v": ""
+                        },
+                        "endYear": {
+                            "x_v": ""
+                        },
+                        "desc": {
+                            "x_v": "From Google Cloud"
+                        }
+                    }
+                ],
+                "lbl": {
+                    "x_v": "Certificates"
+                }
+            },
+            "projects": {
+                "x_m": {
+                    "x_oneColInc": 1
+                },
+                "x_vs": [
+                    {
+                        "x_key": "projects-1735592438656-2",
+                        "name": {
+                            "x_v": "Built an Inmoov Robotic Arm",
+                            "x_link": ""
+                        },
+                        "period": {
+                            "x_v": "03/2022"
+                        },
+                        "startMonth": {
+                            "x_v": ""
+                        },
+                        "startYear": {
+                            "x_v": ""
+                        },
+                        "endMonth": {
+                            "x_v": "03"
+                        },
+                        "endYear": {
+                            "x_v": "2022"
+                        },
+                        "list": [
+                            {
+                                "x_v": "For final year university research project inspired by my work at HyperSpawn Pvt Ltd",
+                                "x_link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "x_key": "projects-1646723050843-2",
+                        "name": {
+                            "x_v": "Developed a MQTT based RFID IoT Security Lock",
+                            "x_link": ""
+                        },
+                        "period": {
+                            "x_v": "01/2022"
+                        },
+                        "startMonth": {
+                            "x_v": "01"
+                        },
+                        "startYear": {
+                            "x_v": "2022"
+                        },
+                        "endMonth": {
+                            "x_v": ""
+                        },
+                        "endYear": {
+                            "x_v": ""
+                        },
+                        "list": [
+                            {
+                                "x_v": "The IoT project used Arduino Cloud MQTT, Esp8266 and RC522 RFID reader to deny/allow access and display logs of entry attempts to secure sites",
+                                "x_link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "x_key": "projects1623665357811",
+                        "name": {
+                            "x_v": "Created a Cyber Security tool 'AnonTime' to fight against Time Slice Fingerprinting",
+                            "x_link": ""
+                        },
+                        "period": {
+                            "x_v": "07/2021"
+                        },
+                        "startMonth": {
+                            "x_v": ""
+                        },
+                        "startYear": {
+                            "x_v": ""
+                        },
+                        "endMonth": {
+                            "x_v": "07"
+                        },
+                        "endYear": {
+                            "x_v": "2021"
+                        },
+                        "list": [
+                            {
+                                "x_v": "Developed in Python for Third Year IBM project",
+                                "x_link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "x_key": "projects-1768675446541-2",
+                        "name": {
+                            "x_v": "Gesture Controlled RC car using a 6 Axis Sensor",
+                            "x_link": ""
+                        },
+                        "period": {
+                            "x_v": "2019"
+                        },
+                        "startMonth": {
+                            "x_v": ""
+                        },
+                        "startYear": {
+                            "x_v": ""
+                        },
+                        "endMonth": {
+                            "x_v": ""
+                        },
+                        "endYear": {
+                            "x_v": "2019"
+                        },
+                        "list": [
+                            {
+                                "x_v": "Used an Arduino with an HC05 Bluetooth module and MPU6500 6 Axis Sensor to control an RC car using only one’s hand gestures.",
+                                "x_link": ""
+                            }
+                        ]
+                    }
+                ],
+                "lbl": {
+                    "x_v": "PERSONAL Projects"
+                }
+            },
+            "generic": {
+                "lbl_present": {
+                    "x_v": "Present"
+                },
+                "lbl_contact": {
+                    "x_v": "Contact"
+                },
+                "january": {
+                    "x_v": "January"
+                },
+                "february": {
+                    "x_v": "February"
+                },
+                "march": {
+                    "x_v": "March"
+                },
+                "april": {
+                    "x_v": "April"
+                },
+                "may": {
+                    "x_v": "May"
+                },
+                "june": {
+                    "x_v": "June"
+                },
+                "july": {
+                    "x_v": "July"
+                },
+                "august": {
+                    "x_v": "August"
+                },
+                "september": {
+                    "x_v": "September"
+                },
+                "october": {
+                    "x_v": "October"
+                },
+                "november": {
+                    "x_v": "November"
+                },
+                "december": {
+                    "x_v": "December"
+                },
+                "pageCounterPage": {
+                    "x_v": "Page"
+                },
+                "pageCounterOf": {
+                    "x_v": "of"
+                }
+            },
+            "teach": {
+                "x_m": {
+                    "x_oneColInc": 1
+                },
+                "x_vs": [],
+                "lbl": {
+                    "x_v": "Teaching Experience"
+                }
+            },
+            "tech": {
+                "x_m": {
+                    "x_oneColInc": 2
+                },
+                "x_vs": [
+                    {
+                        "x_key": "tech-1639375376719-2",
+                        "name": {
+                            "x_v": "Coding Languages"
+                        },
+                        "desc": {
+                            "x_v": "Python, SQL, HTML, Rego, C, C++, PHP, JavaScript"
+                        }
+                    },
+                    {
+                        "x_key": "tech-1639375476231-2",
+                        "name": {
+                            "x_v": "Cyber-Security"
+                        },
+                        "desc": {
+                            "x_v": "Nmap, SQLmap, BurpSuite, WireShark, Scapy, Bandit, Johnny, Brutus, RainbowCrack, IDA, Sysinternals, Volatility, Event Viewer, Carving, Remnux, Autospy"
+                        }
+                    },
+                    {
+                        "x_key": "tech-1736219465733-2",
+                        "name": {
+                            "x_v": "Cloud Experience"
+                        },
+                        "desc": {
+                            "x_v": "Load Balancers, Compute Engine, EC2, GKE, EKS, Cloud Run, Looker, Anthos, AWS Lambda, IAM, SSM, GCP IAP, VPC, S3, GCS"
+                        }
+                    },
+                    {
+                        "x_key": "techtech-1768675704273-2",
+                        "name": {
+                            "x_v": "Project Manager"
+                        },
+                        "desc": {
+                            "x_v": "Agile, Scrum, Waterfall"
+                        }
+                    }
+                ],
+                "lbl": {
+                    "x_v": "Technical Skills"
+                }
+            },
+            "honour": {
+                "x_m": {
+                    "x_oneColInc": 2
+                },
+                "x_vs": [
+                    {
+                        "x_key": "honour-1639326561393-3",
+                        "name": {
+                            "x_v": "1st position in e-FKDC Go Kart competition",
+                            "x_link": ""
+                        },
+                        "desc": {
+                            "x_v": "and 2nd position in virtual e-GKDC Go Kart Competition"
+                        },
+                        "period": {
+                            "x_v": "2021"
+                        },
+                        "startMonth": {
+                            "x_v": ""
+                        },
+                        "startYear": {
+                            "x_v": ""
+                        },
+                        "endMonth": {
+                            "x_v": ""
+                        },
+                        "endYear": {
+                            "x_v": "2021"
+                        },
+                        "list": [
+                            {
+                                "x_v": "Head of Electric Powertrain Design - created virtual Powertrain circuitry model &amp; business plan",
+                                "x_link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "x_key": "honour-1639375238615-2",
+                        "name": {
+                            "x_v": "Presented a paper on ‘Study of Energy use in buildings’",
+                            "x_link": ""
+                        },
+                        "desc": {
+                            "x_v": "At the Vishwakarma University International Conference."
+                        },
+                        "period": {
+                            "x_v": "2018"
+                        },
+                        "startMonth": {
+                            "x_v": ""
+                        },
+                        "startYear": {
+                            "x_v": ""
+                        },
+                        "endMonth": {
+                            "x_v": ""
+                        },
+                        "endYear": {
+                            "x_v": "2018"
+                        },
+                        "list": [
+                            {
+                                "x_v": "Acquired and analyzed data to present energy models commonly used in the hotel industry, while emphasizing the benefits of an energy audit to cut costs.",
+                                "x_link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "x_key": "honour-1646722416525-2",
+                        "name": {
+                            "x_v": "Published a paper on 'Building of Inmoov Robotic Arm for Performing Various Operations'",
+                            "x_link": ""
+                        },
+                        "desc": {
+                            "x_v": "At International Journal for Research in Applied Science and Engineering Technology (IJRASET)"
+                        },
+                        "period": {
+                            "x_v": "01/2022"
+                        },
+                        "startMonth": {
+                            "x_v": "01"
+                        },
+                        "startYear": {
+                            "x_v": "2022"
+                        },
+                        "endMonth": {
+                            "x_v": ""
+                        },
+                        "endYear": {
+                            "x_v": ""
+                        },
+                        "list": [
+                            {
+                                "x_v": "Based on my final year project work",
+                                "x_link": ""
+                            },
+                            {
+                                "x_v": "https://doi.org/10.22214/ijraset.2022.39804",
+                                "x_link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "x_key": "honour-1768675928026-2",
+                        "name": {
+                            "x_v": "Published a paper on 'Virtual energy audit of an industrial plant'",
+                            "x_link": ""
+                        },
+                        "desc": {
+                            "x_v": "At ScienceDirect (Elsevier)"
+                        },
+                        "period": {
+                            "x_v": "11/2022"
+                        },
+                        "startMonth": {
+                            "x_v": "11"
+                        },
+                        "startYear": {
+                            "x_v": "2022"
+                        },
+                        "endMonth": {
+                            "x_v": ""
+                        },
+                        "endYear": {
+                            "x_v": ""
+                        },
+                        "list": [
+                            {
+                                "x_v": "Creating a virtual building energy model to calculate and reduce overall energy consumption",
+                                "x_link": ""
+                            },
+                            {
+                                "x_v": "https://doi.org/10.1016/j.matpr.2022.10.055",
+                                "x_link": ""
+                            }
+                        ]
+                    }
+                ],
+                "lbl": {
+                    "x_v": "Awards"
+                }
+            },
+            "soft": {
+                "x_m": {
+                    "x_rs": "",
+                    "x_hl": true,
+                    "x_intensify": false
+                },
+                "x_vs": [],
+                "lbl": {
+                    "x_v": "Soft Skills"
+                }
+            },
+            "causes": {
+                "x_m": {
+                    "x_hl": true
+                },
+                "x_vs": [],
+                "lbl": {
+                    "x_v": "Supported Causes"
+                }
+            },
+            "org": {
+                "x_m": {
+                    "x_oneColInc": 2
+                },
+                "x_vs": [],
+                "lbl": {
+                    "x_v": "Organizations"
+                }
+            },
+            "lang": {
+                "x_m": {
+                    "x_rs": "",
+                    "x_intensify": true
+                },
+                "x_vs": [],
+                "lbl": {
+                    "x_v": "Languages"
+                },
+                "lblProficiency5": {
+                    "x_v": "Native or Bilingual Proficiency"
+                },
+                "lblProficiency4": {
+                    "x_v": "Full Professional Proficiency"
+                },
+                "lblProficiency3": {
+                    "x_v": "Professional Working Proficiency"
+                },
+                "lblProficiency2": {
+                    "x_v": "Limited Working Proficiency"
+                },
+                "lblProficiency1": {
+                    "x_v": "Elementary Proficiency"
+                }
+            },
+            "references": {
+                "x_m": {
+                    "x_oneColInc": 2
+                },
+                "x_vs": [],
+                "lbl": {
+                    "x_v": "References"
+                }
+            },
+            "conf": {
+                "x_m": {
+                    "x_oneColInc": 2
+                },
+                "x_vs": [
+                    {
+                        "x_key": "conf-1735589012678-3",
+                        "name": {
+                            "x_v": "Speaker at IndiaFOSS 2024",
+                            "x_link": ""
+                        },
+                        "desc": {
+                            "x_v": "A national level conference covering all areas of tech &amp; promoting Open Source."
+                        },
+                        "period": {
+                            "x_v": "09/2024"
+                        },
+                        "startMonth": {
+                            "x_v": "09"
+                        },
+                        "startYear": {
+                            "x_v": "2024"
+                        },
+                        "endMonth": {
+                            "x_v": ""
+                        },
+                        "endYear": {
+                            "x_v": ""
+                        },
+                        "list": [
+                            {
+                                "x_v": "Spoke on building your VoIP server and call spoofing with a live demo (https://www.youtube.com/watch?v=OlP24ADAykA).",
+                                "x_link": ""
+                            },
+                            {
+                                "x_v": "Other speakers included  Kailash Nandh CTO of Zerodha &amp; Vishnu Mohandas Founder of Ente.",
+                                "x_link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "x_key": "conf-1768670047575-2",
+                        "name": {
+                            "x_v": "Speaker at The Hacker Meetup (04/2024)",
+                            "x_link": ""
+                        },
+                        "desc": {
+                            "x_v": "Hacking CI/CD Pipelines"
+                        },
+                        "period": {
+                            "x_v": ""
+                        },
+                        "startMonth": {
+                            "x_v": ""
+                        },
+                        "startYear": {
+                            "x_v": ""
+                        },
+                        "endMonth": {
+                            "x_v": ""
+                        },
+                        "endYear": {
+                            "x_v": ""
+                        },
+                        "list": [
+                            {
+                                "x_v": "Spoke on building &amp; breaking secure CI/CD pipelines",
+                                "x_link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "x_key": "conf-1768670915557-2",
+                        "name": {
+                            "x_v": "Speaker at Null (05/2025)",
+                            "x_link": ""
+                        },
+                        "desc": {
+                            "x_v": "The Magic That is TLS"
+                        },
+                        "period": {
+                            "x_v": ""
+                        },
+                        "startMonth": {
+                            "x_v": ""
+                        },
+                        "startYear": {
+                            "x_v": ""
+                        },
+                        "endMonth": {
+                            "x_v": ""
+                        },
+                        "endYear": {
+                            "x_v": ""
+                        },
+                        "list": [
+                            {
+                                "x_v": "Discussed the intricacies of how TLS works, the algorithms behind it, it's common attacks/weaknesses, Public Key Infrastructure and the ever looming threat of quantum computing.",
+                                "x_link": ""
+                            }
+                        ]
+                    }
+                ],
+                "lbl": {
+                    "x_v": "Conferences &amp; Courses"
+                }
+            },
+            "volunteer": {
+                "x_m": {
+                    "x_oneColInc": 1
+                },
+                "x_vs": [
+                    {
+                        "x_key": "volunteer-1661834934628-2",
+                        "role": {
+                            "x_v": "Computer Science Teacher"
+                        },
+                        "place": {
+                            "x_v": "Asha Foundation",
+                            "x_link": ""
+                        },
+                        "period": {
+                            "x_v": "11/2021 - 05/2022",
+                            "x_ps": false
+                        },
+                        "startMonth": {
+                            "x_v": "11"
+                        },
+                        "startYear": {
+                            "x_v": "2021"
+                        },
+                        "endMonth": {
+                            "x_v": "05"
+                        },
+                        "endYear": {
+                            "x_v": "2022"
+                        },
+                        "loc": {
+                            "x_v": "Mumbai"
+                        },
+                        "desc": {
+                            "x_v": "Asha Foundation is a non profit organization focused on education of underprivileged children"
+                        },
+                        "lbl_list": {
+                            "x_v": "Achievements/Tasks"
+                        },
+                        "list": [
+                            {
+                                "x_v": "Taught Scratch programming to children",
+                                "x_link": ""
+                            },
+                            {
+                                "x_v": "Taught student basic computer operations and typing",
+                                "x_link": ""
+                            },
+                            {
+                                "x_v": "Taught the usage of MS Office Suite",
+                                "x_link": ""
+                            }
+                        ],
+                        "contact_person": {
+                            "x_v": ""
+                        },
+                        "contact_info": {
+                            "x_v": ""
+                        }
+                    }
+                ],
+                "lbl": {
+                    "x_v": "Volunteer Experience"
+                }
+            },
+            "pubs": {
+                "x_m": {
+                    "x_oneColInc": 2
+                },
+                "x_vs": [],
+                "lbl": {
+                    "x_v": "Publications"
+                }
+            }
+        },
+        "cv_isNewestResumeFromDataSet": true
+    },
+    "syncIDSession": "7c59c080-0ef1-11f1-8d89-111ced68c81c",
+    "location": {
+        "continent": "AS",
+        "country": "IN"
+    },
+    "layoutMode": "A"
+}
