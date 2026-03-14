@@ -40,14 +40,12 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     roleKeyword = roleKeyword.toLowerCase().trim();
 
-    /*
     // Fire webhook silently
     fetch('https://eonwhqoenlrrmdx.m.pipedream.net', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ name, email, phone, company, title, companySize, roleKeyword, timestamp: new Date().toISOString() })
     }).catch(err => console.error("Webhook error:", err));
-    */
 
     await generateResume(roleKeyword);
     formSection.classList.add('hidden');
