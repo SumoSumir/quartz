@@ -61,7 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const masterRes = await fetch('resume-master.json', { cache: 'no-cache' });
       const masterData = await masterRes.json();
 
-      const mainRes = await fetch('/resume.json', { cache: 'no-cache' });
+      const mainRes = await fetch('resume-data.json', { cache: 'no-cache' });
       const mainData = await mainRes.json();
 
       const validKeys = masterData[keyword] || [];
