@@ -31,7 +31,7 @@
           </div>
           <div class="input-group">
             <i class="fa-solid fa-phone"></i>
-            <input type="tel" id="phone" required placeholder="Phone Number">
+            <input type="tel" id="phone" required placeholder="Phone Number" minlength="10" pattern="\d{10,}" title="Please enter at least 10 digits">
           </div>
           <div class="input-group">
             <i class="fa-solid fa-building"></i>
@@ -48,6 +48,15 @@
               <option value="1-10">1-10 Employees</option>
               <option value="10-100">10-100 Employees</option>
               <option value="100-1000+">100-1000+ Employees</option>
+            </select>
+          </div>
+          <div class="input-group">
+            <i class="fa-solid fa-clock"></i>
+            <select id="hire-type" required>
+              <option value="" disabled selected>Interested in hiring for</option>
+              <option value="full-time">Full Time</option>
+              <option value="part-time">Part Time</option>
+              <option value="contract">Contract Basis</option>
             </select>
           </div>
           <div class="input-group">

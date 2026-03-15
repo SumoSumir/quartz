@@ -33,6 +33,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const company = document.getElementById('company').value;
     const title = document.getElementById('title').value;
     const companySize = document.getElementById('company-size').value;
+    const hireType = document.getElementById('hire-type').value;
+
+    // Validate phone: at least 10 digits
+    const digitsOnly = phone.replace(/\D/g, '');
+    if (digitsOnly.length < 10) {
+      alert('Please enter a phone number with at least 10 digits.');
+      return;
+    }
 
     let roleKeyword = hireRoleSelect.value;
     if (roleKeyword === 'other') {
@@ -44,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
     fetch('https://eonwhqoenlrrmdx.m.pipedream.net', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ name, email, phone, company, title, companySize, roleKeyword, timestamp: new Date().toISOString() })
+      body: JSON.stringify({ name, email, phone, company, title, companySize, hireType, roleKeyword, timestamp: new Date().toISOString() })
     }).catch(err => console.error("Webhook error:", err));
 
     await generateResume(roleKeyword);
