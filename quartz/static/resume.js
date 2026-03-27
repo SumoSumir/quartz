@@ -32,7 +32,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const phone = document.getElementById('phone').value;
     const company = document.getElementById('company').value;
     const title = document.getElementById('title').value;
-    const companySize = document.getElementById('company-size').value;
     const hireType = document.getElementById('hire-type').value;
 
     // Validate phone: at least 10 digits
@@ -52,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
     fetch('https://eonwhqoenlrrmdx.m.pipedream.net', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ name, email, phone, company, title, companySize, hireType, roleKeyword, timestamp: new Date().toISOString() })
+      body: JSON.stringify({ name, email, phone, company, title, hireType, roleKeyword, timestamp: new Date().toISOString() })
     }).catch(err => console.error("Webhook error:", err));
 
     await generateResume(roleKeyword);
