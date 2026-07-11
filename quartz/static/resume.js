@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
   const form = document.getElementById('access-form');
   const formSection = document.getElementById('form-section');
+  const noteSection = document.getElementById('note-section');
   const resumeSection = document.getElementById('resume-section');
   const resumeHeader = document.getElementById('resume-header');
   const resumeBody = document.getElementById('resume-body');
@@ -10,58 +11,28 @@ document.addEventListener('DOMContentLoaded', () => {
     window.print();
   });
 
-  const hireRoleSelect = document.getElementById('hire-role');
-  const otherRoleGroup = document.getElementById('other-role-group');
-  const otherRoleInput = document.getElementById('other-role');
-
-  hireRoleSelect.addEventListener('change', (e) => {
-    if (e.target.value === 'other') {
-      otherRoleGroup.classList.remove('hidden');
-      otherRoleInput.setAttribute('required', 'required');
-    } else {
-      otherRoleGroup.classList.add('hidden');
-      otherRoleInput.removeAttribute('required');
-      otherRoleInput.value = '';
-    }
-  });
-
   form.addEventListener('submit', async (e) => {
     e.preventDefault();
-    const name = document.getElementById('name').value;
     const email = document.getElementById('email').value;
-    const phone = document.getElementById('phone').value;
-    const company = document.getElementById('company').value;
-    const title = document.getElementById('title').value;
-    const hireType = document.getElementById('hire-type').value;
-
-    // Validate phone: at least 10 digits
-    const digitsOnly = phone.replace(/\D/g, '');
-    if (digitsOnly.length < 10) {
-      alert('Please enter a phone number with at least 10 digits.');
-      return;
-    }
-
-    let roleKeyword = hireRoleSelect.value;
-    if (roleKeyword === 'other') {
-      roleKeyword = otherRoleInput.value;
-    }
-    roleKeyword = roleKeyword.toLowerCase().trim();
+    const roleKeyword = document.getElementById('hire-role').value.toLowerCase().trim();
 
     // Fire webhook silently
     fetch('https://eonwhqoenlrrmdx.m.pipedream.net', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ name, email, phone, company, title, hireType, roleKeyword, timestamp: new Date().toISOString() })
+      body: JSON.stringify({ email, roleKeyword, timestamp: new Date().toISOString() })
     }).catch(err => console.error("Webhook error:", err));
 
-    await generateResume(roleKeyword);
-    formSection.classList.add('hidden');
-    resumeSection.classList.remove('hidden');
+    if (roleKeyword==="other") {
+      noteSection.classList.remove('hidden');
+    }
+    else {
+      await generateResume(roleKeyword);
+      formSection.classList.add('hidden');
+      noteSection.classList.add('hidden');
+      resumeSection.classList.remove('hidden');
+    }
   });
-
-  //if (formSection) formSection.classList.add('hidden');
-  //if (resumeSection) resumeSection.classList.remove('hidden');
-  //generateResume('devsecops');
 
   async function generateResume(keyword) {
     try {
@@ -83,8 +54,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  // Future Plan- highlight keywords/sections that the person says they're looking for
-  // though if I take keywords- would people worry am falsifying my resume to fit them?
   function renderResume(mainData, validKeys) {
     const docModel = mainData.x_docData.x_docModel;
 

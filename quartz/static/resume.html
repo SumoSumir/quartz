@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Personalised Resume</title>
+  <title>Resume</title>
   <link rel="stylesheet" href="resume.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Roboto+Mono&display=swap"
@@ -16,39 +16,14 @@
 
   <main id="app">
     <!-- Form Side -->
+    <div class="form-and-note">
     <section id="form-section">
       <div class="glass-card">
         <h1>Interested in hiring me?</h1>
-        <p>Enter your details to download my resume tailored for you.</p>
         <form id="access-form">
-          <div class="input-group">
-            <i class="fa-solid fa-user"></i>
-            <input type="text" id="name" required placeholder="Full Name">
-          </div>
           <div class="input-group">
             <i class="fa-solid fa-envelope"></i>
             <input type="email" id="email" required placeholder="Email Address">
-          </div>
-          <div class="input-group">
-            <i class="fa-solid fa-phone"></i>
-            <input type="tel" id="phone" required placeholder="Phone Number" minlength="10" pattern="\d{10,}" title="Please enter at least 10 digits">
-          </div>
-          <div class="input-group">
-            <i class="fa-solid fa-building"></i>
-            <input type="text" id="company" required placeholder="Company Name">
-          </div>
-          <div class="input-group">
-            <i class="fa-solid fa-id-badge"></i>
-            <input type="text" id="title" required placeholder="Your Title">
-          </div>
-          <div class="input-group">
-            <i class="fa-solid fa-clock"></i>
-            <select id="hire-type" required>
-              <option value="" disabled selected>Hiring Type</option>
-              <option value="full-time">Full Time</option>
-              <option value="part-time">Part Time</option>
-              <option value="contract">Contract Basis</option>
-            </select>
           </div>
           <div class="input-group">
             <i class="fa-solid fa-briefcase"></i>
@@ -60,16 +35,17 @@
               <option value="other">Other</option>
             </select>
           </div>
-          <div class="input-group hidden" id="other-role-group">
-            <i class="fa-solid fa-pencil"></i>
-            <input type="text" id="other-role" placeholder="Specify Role">
-          </div>
-          <button type="submit" class="btn-primary">View Personalised Resume <i
+          <button type="submit" class="btn-primary">View Resume <i
               class="fa-solid fa-arrow-right"></i></button>
         </form>
       </div>
     </section>
-
+    <section id="note-section" class="hidden">
+      <div class="note-card">
+        <h3>Let's talk on <a href="https://www.linkedin.com/in/sumir-broota/" style="color: rgb(120, 209, 239);">Linkedin</a><br> or connect@sumirbroota.com first</br>
+      </div>
+    </section>
+    </div>
 
     <!-- Resume Side -->
     <section id="resume-section" class="hidden">

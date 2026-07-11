@@ -3,7 +3,7 @@
         "x_docModel": {
             "title": {
                 "desc": {
-                    "x_v": "Sr DevSecOps Engineer &amp; Tech Architect",
+                    "x_v": "Cloud & Security Architect",
                     "x_key": "title1623660052273"
                 }
             },
@@ -283,6 +283,13 @@
                         }
                     },
                     {
+                        "x_key": "skills1623662740888",
+                        "abl": {
+                            "x_v": "Caido",
+                            "x_rl": 80
+                        }
+                    },
+                    {
                         "x_key": "skills1623662740724",
                         "abl": {
                             "x_v": "RIPS",
@@ -366,6 +373,68 @@
                 },
                 "x_vs": [
                     {
+                        "x_key": "work-1763926985430-2",
+                        "role": {
+                            "x_v": "Independent"
+                        },
+                        "place": {
+                            "x_v": "Cloud & Security Architect",
+                            "x_link": ""
+                        },
+                        "period": {
+                            "x_v": "03/2026 - Present"
+                        },
+                        "startMonth": {
+                            "x_v": "03"
+                        },
+                        "startYear": {
+                            "x_v": "2026"
+                        },
+                        "endMonth": {
+                            "x_v": ""
+                        },
+                        "endYear": {
+                            "x_v": ""
+                        },
+                        "loc": {
+                            "x_v": "Mumbai"
+                        },
+                        "desc": {
+                            "x_v": ""
+                        },
+                        "lbl_list": {
+                            "x_v": "Achievements/Tasks"
+                        },
+                        "list": [
+                            {
+                                "x_v": "Designing complete secure application architecture for clients working in highly regulated compliance fields",
+                                "x_link": ""
+                            },
+                            {
+                                "x_v": "Helping debug & fix several application performance & scaling issues",
+                                "x_link": ""
+                            },
+                            {
+                                "x_v": "Setting up secure CI/CD pipelines for image creation/infra deployment/linting/sast/sbom/secret scanning/security checks &amp; more",
+                                "x_link": ""
+                            },
+                            {
+                                "x_v": "Evaluating cloud security policies, expenditures & best practises",
+                                "x_link": ""
+                            },
+                            {
+                                "x_v": "Supporting various microservice deployment with best practises & security in mind",
+                                "x_link": ""
+                            }
+                        ],
+                        "contact_person": {
+                            "x_v": ""
+                        },
+                        "contact_info": {
+                            "x_v": ""
+                        }
+                    },
+                    {
                         "x_key": "work-1768759392542-2",
                         "role": {
                             "x_v": "IDfy"
@@ -444,6 +513,81 @@
                         }
                     },
                     {
+                        "comment": "DevSecOps-but focused on security",
+                        "x_key": "work-1768759334242-2",
+                        "role": {
+                            "x_v": "IDfy"
+                        },
+                        "place": {
+                            "x_v": "Sr DevSecOps Engineer",
+                            "x_link": ""
+                        },
+                        "period": {
+                            "x_v": "03/2025 - 03/2026"
+                        },
+                        "startMonth": {
+                            "x_v": "03"
+                        },
+                        "startYear": {
+                            "x_v": "2025"
+                        },
+                        "endMonth": {
+                            "x_v": "03"
+                        },
+                        "endYear": {
+                            "x_v": "2026"
+                        },
+                        "loc": {
+                            "x_v": "Mumbai"
+                        },
+                        "desc": {
+                            "x_v": ""
+                        },
+                        "lbl_list": {
+                            "x_v": "Achievements/Tasks"
+                        },
+                        "list": [
+                            {
+                                "x_v": "Led the migration of subsidiary company from GCP to AWS. Setting up their entire infra with all security measures in place with inter-cloud connectivity requirements",
+                                "x_link": ""
+                            },
+                            {
+                                "x_v": "Setup &amp; maintained EFFK Logging pipeline across new environments, detecing threats &amp; issues with the application",
+                                "x_link": ""
+                            },
+                            {
+                                "x_v": "Setup &amp; maintained secure gateway exposure of apps across multiple environments, reducing attack surface with increased threat detection",
+                                "x_link": ""
+                            },
+                            {
+                                "x_v": "Created &amp; maintained terraform/terragrunt modules for secure, reproducible IaC usage across environments",
+                                "x_link": ""
+                            },
+                            {
+                                "x_v": "Created packer images for golden image setup of vm disk images, reducing threat surface with minimal builds",
+                                "x_link": ""
+                            },
+                            {
+                                "x_v": "Setup CI/CD pipelines for image creation/infra deployment/linting/sast/sbom/secret scanning/security checks &amp; more",
+                                "x_link": ""
+                            },
+                            {
+                                "x_v": "Defined secure architecture & maintained tooling across the org such as k3s/ArgoCD/Gitlab/FluxCD &amp; more, appling security patches while routinely monitoring for best security practises",
+                                "x_link": ""
+                            },
+                            {
+                                "x_v": "Maintained alerting for app & security level issues using victoria metrics",
+                                "x_link": ""
+                            }
+                        ],
+                        "contact_person": {
+                            "x_v": ""
+                        },
+                        "contact_info": {
+                            "x_v": ""
+                        }
+                    },                    
+                    {
                         "x_key": "work-1735589323656-2",
                         "role": {
                             "x_v": "IDfy"
@@ -492,6 +636,62 @@
                             },
                             {
                                 "x_v": "Built a Bank Statement Analysis application to help banks &amp; NBFC's underwrite loans in a small fast paced team directly under the CEO.",
+                                "x_link": ""
+                            }
+                        ],
+                        "contact_person": {
+                            "x_v": ""
+                        },
+                        "contact_info": {
+                            "x_v": ""
+                        }
+                    },
+                    {
+                        "comment": "Dev-but focused on security",
+                        "x_key": "work-1568908882356-2",
+                        "role": {
+                            "x_v": "IDfy"
+                        },
+                        "place": {
+                            "x_v": "Research Developer",
+                            "x_link": ""
+                        },
+                        "period": {
+                            "x_v": "09/2023 - 03/2025",
+                            "x_ps": false
+                        },
+                        "startMonth": {
+                            "x_v": "09"
+                        },
+                        "startYear": {
+                            "x_v": "2023"
+                        },
+                        "endMonth": {
+                            "x_v": "03"
+                        },
+                        "endYear": {
+                            "x_v": "2025"
+                        },
+                        "loc": {
+                            "x_v": "Mumbai"
+                        },
+                        "desc": {
+                            "x_v": ""
+                        },
+                        "lbl_list": {
+                            "x_v": "Achievements/Tasks"
+                        },
+                        "list": [
+                            {
+                                "x_v": "Launched a bi-directional toolkit with the Chief Architect, seamlessly & securely bridging developers local environments with the staging cluster allowing instant feature testing",
+                                "x_link": ""
+                            },
+                            {
+                                "x_v": "Independently built an Access Manager using Kubernetes RBAC, with guidance from the Chief Architect.",
+                                "x_link": ""
+                            },
+                            {
+                                "x_v": "Worked on defining secure cloud policies &amp; automated drift detection across the organisation using OPA (Rego).",
                                 "x_link": ""
                             }
                         ],
@@ -1231,16 +1431,16 @@
                         }
                     },
                     {
-                        "x_key": "cert-1768674759761-2",
+                        "x_key": "cert-1768674799503-2",
                         "name": {
-                            "x_v": "GCP Professional DevOps Engineer",
+                            "x_v": "GCP Professional Cloud Architect",
                             "x_link": ""
                         },
                         "period": {
-                            "x_v": "06/2025"
+                            "x_v": "05/2025"
                         },
                         "startMonth": {
-                            "x_v": "06"
+                            "x_v": "05"
                         },
                         "startYear": {
                             "x_v": "2025"
@@ -1258,14 +1458,39 @@
                     {
                         "x_key": "cert-1768674799503-2",
                         "name": {
-                            "x_v": "GCP Professional Cloud Architect",
+                            "x_v": "AWS Certified Solutions Architect Professional",
                             "x_link": ""
                         },
                         "period": {
-                            "x_v": "05/2025"
+                            "x_v": "07/2026"
                         },
                         "startMonth": {
-                            "x_v": "05"
+                            "x_v": "07"
+                        },
+                        "startYear": {
+                            "x_v": "2026"
+                        },
+                        "endMonth": {
+                            "x_v": ""
+                        },
+                        "endYear": {
+                            "x_v": ""
+                        },
+                        "desc": {
+                            "x_v": "From AWS"
+                        }
+                    },
+                    {
+                        "x_key": "cert-1768674759761-2",
+                        "name": {
+                            "x_v": "GCP Professional DevOps Engineer",
+                            "x_link": ""
+                        },
+                        "period": {
+                            "x_v": "06/2025"
+                        },
+                        "startMonth": {
+                            "x_v": "06"
                         },
                         "startYear": {
                             "x_v": "2025"
@@ -1750,20 +1975,20 @@
                     {
                         "x_key": "conf-1735589012678-3",
                         "name": {
-                            "x_v": "Speaker at IndiaFOSS 2024",
+                            "x_v": "Speaker at IndiaFOSS (09/2024)",
                             "x_link": ""
                         },
                         "desc": {
                             "x_v": "A national level conference covering all areas of tech &amp; promoting Open Source."
                         },
                         "period": {
-                            "x_v": "09/2024"
+                            "x_v": ""
                         },
                         "startMonth": {
-                            "x_v": "09"
+                            "x_v": ""
                         },
                         "startYear": {
-                            "x_v": "2024"
+                            "x_v": ""
                         },
                         "endMonth": {
                             "x_v": ""
@@ -1777,7 +2002,74 @@
                                 "x_link": ""
                             },
                             {
-                                "x_v": "Other speakers included  Kailash Nandh CTO of Zerodha &amp; Vishnu Mohandas Founder of Ente.",
+                                "x_v": "Other speakers included Kailash Nandh CTO of Zerodha &amp; Vishnu Mohandas Founder of Ente.",
+                                "x_link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "comment": "more focused on security",
+                        "x_key": "conf-5678986722349-3",
+                        "name": {
+                            "x_v": "Speaker at IndiaFOSS (09/2024)",
+                            "x_link": ""
+                        },
+                        "desc": {
+                            "x_v": "A national level conference covering all areas of tech &amp; promoting Open Source."
+                        },
+                        "period": {
+                            "x_v": ""
+                        },
+                        "startMonth": {
+                            "x_v": ""
+                        },
+                        "startYear": {
+                            "x_v": ""
+                        },
+                        "endMonth": {
+                            "x_v": ""
+                        },
+                        "endYear": {
+                            "x_v": ""
+                        },
+                        "list": [
+                            {
+                                "x_v": "Spoke on building your VoIP server and hacking cell systems to perform call spoofing with a live demo (https://www.youtube.com/watch?v=OlP24ADAykA).",
+                                "x_link": ""
+                            },
+                            {
+                                "x_v": "Other speakers included Kailash Nandh CTO of Zerodha &amp; Vishnu Mohandas Founder of Ente.",
+                                "x_link": ""
+                            }
+                        ]
+                    },
+                    {
+                        "x_key": "conf-1768670047566-2",
+                        "name": {
+                            "x_v": "Speaker at KubeCon India (06/2026)",
+                            "x_link": ""
+                        },
+                        "desc": {
+                            "x_v": "Root Without Risk: A Decade-Long Quest for True Container Isolation"
+                        },
+                        "period": {
+                            "x_v": ""
+                        },
+                        "startMonth": {
+                            "x_v": ""
+                        },
+                        "startYear": {
+                            "x_v": ""
+                        },
+                        "endMonth": {
+                            "x_v": ""
+                        },
+                        "endYear": {
+                            "x_v": ""
+                        },
+                        "list": [
+                            {
+                                "x_v": "Spoke on how KEP-127 secured Kubernetes by preventing root inside a container from being root on the host node.",
                                 "x_link": ""
                             }
                         ]
