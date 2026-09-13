@@ -373,7 +373,7 @@
                 },
                 "x_vs": [
                     {
-                        "x_key": "work-1763926985430-2",
+                        "x_key": "work-independent-devsecops",
                         "role": {
                             "x_v": "Independent"
                         },
@@ -407,11 +407,61 @@
                         },
                         "list": [
                             {
-                                "x_v": "Designing complete secure application architecture for clients working in highly regulated compliance fields",
+                                "x_v": "Designing & setting up complete secure application architecture for clients working in highly regulated compliance fields",
                                 "x_link": ""
                             },
                             {
-                                "x_v": "Helping debug & fix several application performance & scaling issues",
+                                "x_v": "Built secure CI/CD pipelines for image creation, infrastructure deployment, and security checks, reducing deployment time and enabling automated failover for high availability.",
+                                "x_link": ""
+                            },
+                            {
+                                "x_v": "Regulating cloud security policies, auditing expenditures & enforcing best practises",
+                                "x_link": ""
+                            }
+                        ],
+                        "contact_person": {
+                            "x_v": ""
+                        },
+                        "contact_info": {
+                            "x_v": ""
+                        }
+                    },
+                    {
+                        "x_key": "work-independent-devsecops-sf",
+                        "role": {
+                            "x_v": "Independent"
+                        },
+                        "place": {
+                            "x_v": "Cloud & Security Architect",
+                            "x_link": ""
+                        },
+                        "period": {
+                            "x_v": "03/2026 - Present"
+                        },
+                        "startMonth": {
+                            "x_v": "03"
+                        },
+                        "startYear": {
+                            "x_v": "2026"
+                        },
+                        "endMonth": {
+                            "x_v": ""
+                        },
+                        "endYear": {
+                            "x_v": ""
+                        },
+                        "loc": {
+                            "x_v": "Mumbai"
+                        },
+                        "desc": {
+                            "x_v": ""
+                        },
+                        "lbl_list": {
+                            "x_v": "Achievements/Tasks"
+                        },
+                        "list": [
+                            {
+                                "x_v": "Designing & setting up complete secure application architecture for clients working in highly regulated compliance fields",
                                 "x_link": ""
                             },
                             {
@@ -419,15 +469,11 @@
                                 "x_link": ""
                             },
                             {
-                                "x_v": "Evaluating cloud security policies, expenditures & best practises",
+                                "x_v": "Regulating cloud security policies, auditing expenditures & enforcing best practises",
                                 "x_link": ""
                             },
                             {
-                                "x_v": "Supporting various microservice deployment with best practises & security in mind",
-                                "x_link": ""
-                            },
-                            {
-                                "x_v": "Delivering comprehensive VAPT services across web applications, mobile applications, networks, APIs, and Cloud infrastructure, identifying vulnerabilities and providing actionable recommendations for remediation",
+                                "x_v": "Delivering comprehensive VAPT services across web applications, mobile applications, networks, APIs, and Cloud infrastructure. Identifying vulnerabilities and providing actionable recommendations for remediation",
                                 "x_link": ""
                             },
                             {
@@ -443,7 +489,7 @@
                         }
                     },
                     {
-                        "x_key": "work-1768759392542-2",
+                        "x_key": "work-idfy-devsecops",
                         "role": {
                             "x_v": "IDfy"
                         },
@@ -493,11 +539,11 @@
                                 "x_link": ""
                             },
                             {
-                                "x_v": "Created packer images for golden image setup of vm disk images",
+                                "x_v": "Created packer images for golden image setup of VM disk images",
                                 "x_link": ""
                             },
                             {
-                                "x_v": "Setup CI/CD pipelines for image creation/infra deployment/linting/security checks &amp; more",
+                                "x_v": "Automated end-to-end image builds, infra provisioning, code linting, and security scanning through CI/CD pipelines.",
                                 "x_link": ""
                             },
                             {
@@ -521,8 +567,8 @@
                         }
                     },
                     {
-                        "comment": "DevSecOps-but focused on security",
-                        "x_key": "work-1768759334242-2",
+                        "comment": "DevSecOps-but security focused (sf)",
+                        "x_key": "work-idfy-devsecops-sf",
                         "role": {
                             "x_v": "IDfy"
                         },
@@ -556,35 +602,19 @@
                         },
                         "list": [
                             {
-                                "x_v": "Led the migration of subsidiary company from GCP to AWS. Setting up their entire infra with all security measures in place with inter-cloud connectivity requirements",
+                                "x_v": "Led a secure GCP-to-AWS migration, implementing infrastructure, inter-cloud connectivity, and security controls.",
                                 "x_link": ""
                             },
                             {
-                                "x_v": "Setup &amp; maintained EFFK Logging pipeline across new environments, detecing threats &amp; issues with the application",
+                                "x_v": "Implemented EFFK logging &amp; application gateway exposure across environments for reduced attack surface with increased threat visibility",
                                 "x_link": ""
                             },
                             {
-                                "x_v": "Setup &amp; maintained secure gateway exposure of apps across multiple environments, reducing attack surface with increased threat detection",
-                                "x_link": ""
-                            },
-                            {
-                                "x_v": "Created &amp; maintained terraform/terragrunt modules for secure, reproducible IaC usage across environments",
-                                "x_link": ""
-                            },
-                            {
-                                "x_v": "Created packer images for golden image setup of vm disk images, reducing threat surface with minimal builds",
+                                "x_v": "Developed reusable Terraform/Terragrunt modules and hardened Packer images for secure, consistent infrastructure deployment with routine security patching",
                                 "x_link": ""
                             },
                             {
                                 "x_v": "Setup CI/CD pipelines for image creation/infra deployment/linting/sast/sbom/secret scanning/security checks &amp; more",
-                                "x_link": ""
-                            },
-                            {
-                                "x_v": "Defined secure architecture & maintained tooling across the org such as k3s/ArgoCD/Gitlab/FluxCD &amp; more, appling security patches while routinely monitoring for best security practises",
-                                "x_link": ""
-                            },
-                            {
-                                "x_v": "Maintained alerting for app & security level issues using victoria metrics",
                                 "x_link": ""
                             }
                         ],
@@ -596,7 +626,7 @@
                         }
                     },                    
                     {
-                        "x_key": "work-1735589323656-2",
+                        "x_key": "work-idfy-development",
                         "role": {
                             "x_v": "IDfy"
                         },
@@ -635,7 +665,7 @@
                                 "x_link": ""
                             },
                             {
-                                "x_v": "Independently built an Access Manager using Kubernetes RBAC &amp; RedisGraph, with guidance from the Chief Architect.",
+                                "x_v": "Independently built a Cross-Cloud & App Access Manager modeled over Kubernetes RBAC with RedisGraph, under guidance from the Chief Architect.",
                                 "x_link": ""
                             },
                             {
@@ -656,7 +686,7 @@
                     },
                     {
                         "comment": "Dev-but focused on security",
-                        "x_key": "work-1568908882356-2",
+                        "x_key": "work-idfy-development-sf",
                         "role": {
                             "x_v": "IDfy"
                         },
@@ -695,7 +725,7 @@
                                 "x_link": ""
                             },
                             {
-                                "x_v": "Independently built an Access Manager using Kubernetes RBAC, with guidance from the Chief Architect.",
+                                "x_v": "Independently built a Cross-Cloud & App Access Manager modeled over Kubernetes RBAC, with guidance from the Chief Architect.",
                                 "x_link": ""
                             },
                             {
@@ -711,7 +741,7 @@
                         }
                     },
                     {
-                        "x_key": "work-1735589955204-2",
+                        "x_key": "work-idfy-security",
                         "role": {
                             "x_v": "IDfy"
                         },
@@ -754,6 +784,68 @@
                             },
                             {
                                 "x_v": "Lead the team in process automation &amp; WAF incident response.",
+                                "x_link": ""
+                            }
+                        ],
+                        "contact_person": {
+                            "x_v": ""
+                        },
+                        "contact_info": {
+                            "x_v": ""
+                        }
+                    },
+                                        {
+                        "x_key": "work-idfy-security-sf",
+                        "role": {
+                            "x_v": "IDfy"
+                        },
+                        "place": {
+                            "x_v": "Infosec Engineer",
+                            "x_link": ""
+                        },
+                        "period": {
+                            "x_v": "09/2022 - 09/2023"
+                        },
+                        "startMonth": {
+                            "x_v": "09"
+                        },
+                        "startYear": {
+                            "x_v": "2022"
+                        },
+                        "endMonth": {
+                            "x_v": "09"
+                        },
+                        "endYear": {
+                            "x_v": "2023"
+                        },
+                        "loc": {
+                            "x_v": "Mumbai"
+                        },
+                        "desc": {
+                            "x_v": ""
+                        },
+                        "lbl_list": {
+                            "x_v": "Achievements/Tasks"
+                        },
+                        "list": [
+                            {
+                                "x_v": "Lead the team with highest no. of security issues found (including criticals).",
+                                "x_link": ""
+                            },
+                            {
+                                "x_v": "Lead the team with the highest issue closure rate with 95% revalidations performed the same day they were raised.",
+                                "x_link": ""
+                            },
+                            {
+                                "x_v": "Lead the team in process automation with IP threat-hunting tools and Looker dashboards for WAF incident response, thwarting 15+ threat actors by analysing logs & writing summarised RCA reports.",
+                                "x_link": ""
+                            },
+                            {
+                                "x_v": "Cultivated developer security culture by embedding in sprint planning, publishing 45+ internal secure-coding guides, and conducting org-wide security sessions.",
+                                "x_link": ""
+                            },
+                            {
+                                "x_v": "Automated reporting pipelines with a custom tool establishing standard templates, significantly cutting cycle time.",
                                 "x_link": ""
                             }
                         ],
@@ -1435,7 +1527,7 @@
                             "x_v": ""
                         },
                         "desc": {
-                            "x_v": "From the Linux Foundation"
+                            "x_v": "From the Linux Foundation (A title held by less 5000 people in the world)"
                         }
                     },
                     {
@@ -2006,7 +2098,7 @@
                         },
                         "list": [
                             {
-                                "x_v": "Spoke on building your VoIP server and call spoofing with a live demo (https://www.youtube.com/watch?v=OlP24ADAykA).",
+                                "x_v": "Spoke on building your VoIP server and call spoofing with a live demo",
                                 "x_link": ""
                             },
                             {
@@ -2042,7 +2134,7 @@
                         },
                         "list": [
                             {
-                                "x_v": "Spoke on building your VoIP server and hacking cell systems to perform call spoofing with a live demo (https://www.youtube.com/watch?v=OlP24ADAykA).",
+                                "x_v": "Spoke on building your VoIP server and hacking cell systems to perform call spoofing with a live demo",
                                 "x_link": ""
                             },
                             {

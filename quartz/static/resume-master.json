@@ -1,9 +1,9 @@
 {
   "devsecops": [
-    "work-1763926985430-2",
-    "work-1768759392542-2",
-    "work-1735589323656-2",
-    "work-1735589955204-2",
+    "work-independent-devsecops",
+    "work-idfy-devsecops",
+    "work-idfy-security",
+    "work-idfy-development",
     "edu1623660052278",
     "ach-1768675161468-2",
     "ach-1768674943955-2",
@@ -21,10 +21,10 @@
     "conf-1768670915557-2"
   ],
   "security": [
-    "work-1763926985430-2",
-    "work-1768759334242-2",
-    "work-1568908882356-2",
-    "work-1735589955204-2",
+    "work-independent-devsecops-sf",
+    "work-idfy-devsecops-sf",
+    "work-idfy-development-sf",
+    "work-idfy-security-sf",
     "edu1623660052278",
     "skills1623660637308",
     "skills1623660052290",
@@ -41,7 +41,6 @@
     "ach-1768674943955-2",
     "ach-1771657615653-2",
     "cert-1768674172039-2",
-    "cert-1768674270386-2",
     "cert-1768674562919-2",
     "cert-1768674656291-2",
     "cert-1768674799503-2",
@@ -57,10 +56,10 @@
     
   ],
   "development": [
-    "work-1763926985430-2",
-    "work-1768759392542-2",
-    "work-1735589323656-2",
-    "work-1735589955204-2",
+    "work-independent-devsecops",
+    "work-idfy-devsecops",
+    "work-idfy-security",
+    "work-idfy-development",
     "edu1623660052278",
     "skills1623660052290",
     "skills1623660591133",
