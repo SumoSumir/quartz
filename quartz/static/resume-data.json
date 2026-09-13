@@ -425,6 +425,14 @@
                             {
                                 "x_v": "Supporting various microservice deployment with best practises & security in mind",
                                 "x_link": ""
+                            },
+                            {
+                                "x_v": "Delivering comprehensive VAPT services across web applications, mobile applications, networks, APIs, and Cloud infrastructure, identifying vulnerabilities and providing actionable recommendations for remediation",
+                                "x_link": ""
+                            },
+                            {
+                                "x_v": "Supporting organizations in achieving SOC 2 compliance through detailed gap assessments, actionable remediation guidance, and assistance in strengthening their security controls and overall setup",
+                                "x_link": ""
                             }
                         ],
                         "contact_person": {
